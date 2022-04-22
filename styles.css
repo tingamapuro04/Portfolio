@@ -1,0 +1,112 @@
+.header {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+li {
+    width: 68px;
+    text-decoration: none;
+}
+
+.first {
+    flex: 4;
+    align-self: center;
+}
+
+.Mobile {
+    height: 100vh;
+
+    background: url('/photos/Ellipse\ 3\ \(1\).png') 100% 5% no-repeat, url('/photos/Ellipse\ 12.png') 5% 11% no-repeat, url('/photos/Ellipse\ 4.png') 50% 98% no-repeat, url('/photos/Rectangle\ 4.png') 90% 0% no-repeat, url('/photos/Ellipse\ 12.png') 2% 80% no-repeat, url('/photos/Rectangle\ 5.png') 600px 500px no-repeat, url('/photos/Ellipse\ 13.png') 2% 85% no-repeat, url('/photos/Ellipse\ 6.png') 85% 70% no-repeat, url('/photos/Ellipse\ 5.png') 50% 15% no-repeat, url('/photos/Rectangle\ 7.png') 50% 12.3% no-repeat, url('/photos/Rectangle\ 6.png') 0% 5% no-repeat
+}
+
+a {
+    text-decoration: none;
+}
+
+@media all and (max-width:375px) {
+    .Mobile {
+        height: 718px;
+
+        background: 10px url('/photos/Ellipse\ 3\ \(1\).png') 100% 5% no-repeat absolute, url('/photos/Ellipse\ 12.png') 5% 11% no-repeat, url('/photos/Ellipse\ 4.png') 50% 98% no-repeat, url('/photos/Rectangle\ 4.png') 90% 0% no-repeat, url('/photos/Ellipse\ 12.png') 2% 80% no-repeat, url('/photos/Rectangle\ 5.png') 600px 500px no-repeat, url('/photos/Ellipse\ 13.png') 2% 85% no-repeat, url('/photos/Ellipse\ 6.png') 85% 70% no-repeat, url('/photos/Ellipse\ 5.png') 50% 15% no-repeat, url('/photos/Rectangle\ 7.png') 50% 12.3% no-repeat, url('/photos/Rectangle\ 6.png') 0% 5% no-repeat;
+    }
+
+    .header {
+        display: flex;
+        list-style: none;
+        justify-content: flex-end;
+        flex: 1;
+    }
+
+    li {
+        width: 68px;
+        text-decoration: none;
+    }
+
+    .first {
+        flex: 4;
+        width: 76px;
+        height: 20px;
+        padding-top: 10px;
+        padding-left: 12px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+        font-family: 'Poppins';
+    }
+
+    .title {
+        width: 327px;
+        height: 1px;
+        padding-top: 150px;
+        padding-left: 24px;
+        padding-right: 24px;
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 52px;
+        color: rgba(23, 43, 77, 1);
+        position: static;
+        display: flex;
+        align-items: center;
+        flex: none;
+        margin: 12px 0px;
+    }
+
+    .Bio {
+        width: 327px;
+        height: 146px;
+        padding-top: 40px;
+        padding-left: 24px;
+        padding-right: 24px;
+        color: rgba(52, 69, 99, 1);
+        font-weight: 400;
+        line-height: 24px;
+        font-size: 16px;
+        position: static;
+        font-family: 'Poppins';
+        margin: 1px 0px;
+    }
+
+    .social {
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        position: static;
+        color: rgba(127, 140, 255, 1);
+        width: auto;
+        height: 24px;
+        margin: 0px 8px;
+    }
+
+    .icon {
+        display: flex;
+    }
+
+    img {
+        margin: 5px;
+    }
+
+}
