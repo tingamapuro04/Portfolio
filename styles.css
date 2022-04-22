@@ -104,8 +104,10 @@ a {
   }
 
   img {
-    margin: 5px; }
+    margin: 5px;
+  }
 }
 /* stylelint-disable-next-line rule */
 body {
-  background-color: green; }
+  background-color: green;
+}
