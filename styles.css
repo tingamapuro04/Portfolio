@@ -107,4 +107,5 @@ a {
     margin: 5px; }
 }
 /* stylelint-disable-next-line rule */
-body{background-color: green; }
+body {
+  background-color: green; }
