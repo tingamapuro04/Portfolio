@@ -27,45 +27,42 @@ a {
 @media all and (max-width: 375px) {
   .Mobile {
     height: 718px;
-    /* background:  url('/photos/Ellipse\ 3\ \(1\).png'),url('/photos/Ellipse\ 12.png'), url('/photos/Ellipse\ 4.png'), url('/photos/Rectangle\ 4.png'), url('/photos/Ellipse\ 12.png'), url('/photos/Ellipse\ 13.png'), url('/photos/Ellipse\ 13.png'), url('/photos/Ellipse\ 5.png'), url('/photos/Rectangle\ 7.png'), url('/photos/Rectangle\ 6.png')  100% 5%,5% 11%, 50% 98%, 90% 0.2%, 2% 80%, 600px 500px, 2% 85%, 50% 15%,50% 12.3%, 1% 5% no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat; */
-
-
     background-image: url('/photos/Ellipse\ 3\ \(1\).png'),
-    url('/photos/Ellipse\ 12.png'),
-    url('/photos/Ellipse\ 4.png'),
-    url('/photos/Rectangle\ 4.png'),
-    url('/photos/Ellipse\ 12.png'),
-    url('/photos/Ellipse\ 13.png'),
-    url('/photos/Ellipse\ 13.png'),
-    url('/photos/Ellipse\ 5.png'),
-    url('/photos/Rectangle\ 7.png'),
-    url('/photos/Rectangle\ 6.png');
+      url('/photos/Ellipse\ 12.png'),
+      url('/photos/Ellipse\ 4.png'),
+      url('/photos/Rectangle\ 4.png'),
+      url('/photos/Ellipse\ 12.png'),
+      url('/photos/Ellipse\ 13.png'),
+      url('/photos/Ellipse\ 13.png'),
+      url('/photos/Ellipse\ 5.png'),
+      url('/photos/Rectangle\ 7.png'),
+      url('/photos/Rectangle\ 6.png');
 
-    background-position: 100% 5%,
-    5% 11%,
-    50% 98%,
-    90% 0.2%,
-    2% 80%,
-    600px 500px,
-    2% 85%,
-    50% 15%,
-    50% 12.3%,
-    1% 5%;
+      background-position: 100% 5%,
+      5% 11%,
+      50% 98%,
+      90% 0.2%,
+      2% 80%,
+      600px 500px,
+      2% 85%,
+      50% 15%,
+      50% 12.3%,
+      1% 5%;
 
-    background-repeat: no-repeat,
-    no-repeat,
-    no-repeat,
-    no-repeat,
-    no-repeat,
-    no-repeat,
-    no-repeat,
-    no-repeat,
-    no-repeat,
-    no-repeat;
+      background-repeat: no-repeat,
+      no-repeat,
+      no-repeat,
+      no-repeat,
+      no-repeat,
+      no-repeat,
+      no-repeat,
+      no-repeat,
+      no-repeat,
+      no-repeat;
 
-    width: 200px, 100px, 100px, 100px, 100px, 100px, 100px,100px,100px,100px;
-    height: 150px, 150px, 150px, 150px, 150px, 150px, 150px, 150px, 150px, 150px;
-    
+      width: 200px, 100px, 100px, 100px, 100px, 100px, 100px,100px,100px,100px;
+      height: 150px, 150px, 150px, 150px, 150px, 150px, 150px, 150px, 150px, 150px;
+      
 
 
   }
