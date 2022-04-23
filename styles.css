@@ -38,7 +38,6 @@ a {
       url('/photos/Ellipse\ 5.png'),
       url('/photos/Rectangle\ 7.png'),
       url('/photos/Rectangle\ 6.png');
-
     background-position:
       100% 5%,
       5% 11%,
@@ -50,7 +49,6 @@ a {
       50% 15%,
       50% 12.3%,
       1% 5%;
-
     background-repeat:
       no-repeat,
       no-repeat,
@@ -110,7 +108,7 @@ a {
     height: 146px;
     padding-top: 40px;
     padding-left: 24px;
-    padding-right: 24px; 
+    padding-right: 24px;
     color: rgba(52, 69, 99, 1);
     font-weight: 400;
     line-height: 24px;
