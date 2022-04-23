@@ -27,8 +27,8 @@ a {
 @media all and (max-width: 375px) {
   .Mobile {
     height: 718px;
-    background-image: 
-    url('/photos/Ellipse\ 3\ \(1\).png'),
+    background-image:
+      url('/photos/Ellipse\ 3\ \(1\).png'),
       url('/photos/Ellipse\ 12.png'),
       url('/photos/Ellipse\ 4.png'),
       url('/photos/Rectangle\ 4.png'),
@@ -39,7 +39,7 @@ a {
       url('/photos/Rectangle\ 7.png'),
       url('/photos/Rectangle\ 6.png');
 
-      background-position: 
+    background-position:
       100% 5%,
       5% 11%,
       50% 98%,
@@ -51,7 +51,7 @@ a {
       50% 12.3%,
       1% 5%;
 
-      background-repeat: 
+    background-repeat:
       no-repeat,
       no-repeat,
       no-repeat,
@@ -62,19 +62,12 @@ a {
       no-repeat,
       no-repeat,
       no-repeat;
-
-      width: 200px, 100px, 100px, 100px, 100px, 100px, 100px,100px,100px,100px;
-      height: 150px, 150px, 150px, 150px, 150px, 150px, 150px, 150px, 150px, 150px;
-      
-
-
   }
 
   .header {
     display: flex;
     list-style: none;
     justify-content: flex-end;
-    flex: 1;
   }
 
   li {
