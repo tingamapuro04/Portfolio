@@ -1,0 +1,84 @@
+body{
+  font-size: 3rem;
+  /* max-width: 3000px; */
+}
+
+.container{
+  width: 20%;
+  margin: auto;
+  padding: 3rem;
+  background: 
+  url('/photos/Ellipse\ 3\ \(1\).png') 100% 25% no-repeat,
+  url('/photos/Ellipse\ 12.png') 20% 20% no-repeat,
+  url('/photos/Ellipse\ 4.png') 50% 98% no-repeat,
+  url('/photos/Rectangle\ 4.png') 90% 20% no-repeat,
+  url('/photos/Ellipse\ 12.png') 2% 84% no-repeat,
+  url('/photos/Rectangle\ 5.png') 600px 500px no-repeat,
+  url('/photos/Ellipse\ 13.png') 2% 85% no-repeat,
+  url('/photos/Ellipse\ 6.png') 85% 70% no-repeat,
+  url('/photos/Ellipse\ 5.png') 50% 19% no-repeat,
+  url('/photos/Rectangle\ 7.png') 50% 17% no-repeat,
+  url('/photos/Rectangle\ 6.png') 14% 17% no-repeat; 
+}
+
+.header{
+  display: flex;
+}
+
+.logo{
+  display: flex;
+  width: 50%;
+  align-items: center;
+  color: rgba(96, 112, 255, 1);
+}
+
+.hamburger{
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+
+.Main{
+  padding-top: 7em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.title{
+  width: 40%;
+  line-height: 1.4em;
+}
+
+.text{
+  font-size: 1.2em;
+}
+
+.media{
+  display: flex;
+  padding: 0%;
+  margin-top: 0px;
+}
+
+.media>li{
+  margin-right:56px;
+  list-style: none;
+
+}
+
+.media>li>img{
+  height: 2.5rem;
+  width: 120%;
+}
+
+.hamburger>img{
+  height: 2.9em;
+}
+
+h4{
+  color: rgba(127, 140, 255, 1);
+}
+
+.hoverable:hover{
+  text-decoration: underline;
+}

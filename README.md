@@ -1,6 +1,7 @@
+## Project Name
 Portflio Project
-
-Mobile skeleton version of my portflio.
+## Description
+Mobile skeleton version of my portflio. 
 
 
 ## Built With
@@ -19,13 +20,6 @@ This is the first milestone project at microverse where we start by a skeleton m
 👤 **Author1**
 
 - GitHub: [@githubhandle](https://github.com/tingamapuro04)
-
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
