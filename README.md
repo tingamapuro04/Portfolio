@@ -1,19 +1,19 @@
 ## Project Name
-Portflio Project
+##Portflio:Setup and Mobile version skeleton
 ## Description
 Mobile skeleton version of my portflio. 
 
 
 ## Built With
 
-- Html
-- Css
+##- Html
+##- Css
 
 
 
 ## Getting Started
 
-This is the first milestone project at microverse where we start by a skeleton mobile layout.
+##This is the first milestone project at microverse where we start by a skeleton mobile layout.
 
 ## Authors
 
