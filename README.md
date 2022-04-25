@@ -1,15 +1,15 @@
 ## Project Name
-Portflio:Setup and Mobile version skeleton
-## Description
-A project on a mobile version of a page where i am setting up the first page.  
 
+Portflio:Setup and Mobile version skeleton
+
+## Description
+
+A project on a mobile version of a page where i am setting up the first page.
 
 ## Built With
 
 - Html
 - Css
-
-
 
 ## Getting Started
 
