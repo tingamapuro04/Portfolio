@@ -11,14 +11,10 @@
   top: 44px;
   bottom: 0.001px;
   justify-content: space-between;
+  align-items: center;
 }
 
-.header h1 {
-  position: static;
-  width: 76px;
-  height: 20px;
-  left: 12px;
-  top: 10px;
+.header a {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
