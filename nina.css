@@ -1,5 +1,5 @@
-.container{
-  background: url(/photos/header-shapes\ mobile.png)  no-repeat ;
+.container {
+  background: url(/photos/header-shapes\ mobile.png)  no-repeat;
   background-size: cover;
   position: absolute;
   width: 375px;
@@ -8,23 +8,22 @@
   top: 0px;
 }
 
-.header{
+.header {
   display: flex;
   left: 0px;
   right: 0px;
   top: 44px;
   bottom: 0px;
   justify-content: space-between;
-  
 }
 
-.header h1{
+.header h1 {
   position: static;
   width: 76px;
   height: 20px;
   left: 12px;
   top: 10px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -33,10 +32,10 @@
   display: flex;
   align-items: center;
   text-align: center;
-  color: #6070FF;
+  color: #6070ff;
 }
 
-.title{
+.title {
   width: 85%;
   line-height: 1.4em;
 }
@@ -49,39 +48,37 @@
   line-height: 52px;
   display: flex;
   align-items: center;
-  color: #172B4D;
+  color: #172b4d;
 }
 
-.text{
+.text {
   position: static;
   width: 327px;
   height: 146px;
   left: 24px;
   top: 276px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* Neutrals/N600 */
   color: #344563;
   flex: none;
   flex-grow: 0;
   margin: 12px 0px;
 }
 
-.media{
+.media {
   display: flex;
   padding: 0%;
   margin-top: 0px;
 }
 
-.media>li{
+.media > li {
   list-style: none;
-
 }
 
-.twi{
+.twi {
   position: absolute;
   left: 1.4%;
   right: 88.27%;
@@ -89,7 +86,7 @@
   bottom: 18.88%;
 }
 
-.git{
+.git {
   position: absolute;
   left: 23.13%;
   right: 57.07%;
@@ -105,7 +102,7 @@
   bottom: 19.21%;
 }
 
-.lin{
+.lin {
   position: absolute;
   width: 20px;
   height: 20px;
@@ -113,28 +110,29 @@
   top: 470px;
 }
 
-.angel{
+.angel {
   position: absolute;
   left: 30%;
   right: 48.22%;
   top: 470px;
   bottom: 18.87%;
-  background: #505F79;
+  background: #505f79;
 }
 
-.Main{
+.Main {
   padding-left: 10px;
 }
 
-h4{
-  font-family : 'Poppins';
-  font-style : normal;
-  font-weight : 500;
-  font-size : 16px;
-  line-height : 24px;
-  margin-bottom : -0.0000099px;
+h4 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: -0.0000099px;
+  color: #6070ff;
 }
 
-.hoverable:hover{
+.hoverable:hover {
   text-decoration:underline;
 }
