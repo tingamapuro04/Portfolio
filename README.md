@@ -4,7 +4,7 @@ Portflio:Setup and Mobile version skeleton
 
 ## Description
 
-A project on a mobile version of a page where i am setting up the first page.
+A project on a mobile version of a page where i am setting up the first page using only HTML and Css.
 
 ## Built With
 
@@ -20,11 +20,15 @@ This is the first milestone project at microverse where we start by a skeleton m
 👤 **Author1**
 
 - GitHub: [@githubhandle](https://github.com/tingamapuro04)
+- Name : Adoyo Alphonce Mobutu
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Give a ⭐️ if you like this project! and let me know of any issues that may even make it better.
 
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+
+## Copyright
+© Adoyo M Alphonce.
