@@ -24,24 +24,17 @@
   height: 20px;
   left: 12px;
   top: 10px;
-  
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
   margin-left: 14px;
-  /* identical to box height, or 111% */
-  
   display: flex;
   align-items: center;
   text-align: center;
-  
-  /* Primary/B400 */
-  
   color: #6070FF;
 }
-
 
 .title{
   width: 85%;
@@ -49,24 +42,13 @@
 }
 
 .title h1 {
-  /* font-family: 'Poppins', sans-serif;
-  position: static;
-  width: 327px;
-  height: 150px;
-  left: 24px;
-  top: 114px; */
-  
-  
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  
   display: flex;
   align-items: center;
-  
-  
   color: #172B4D;
 }
 
@@ -76,20 +58,13 @@
   height: 146px;
   left: 24px;
   top: 276px;
-  
-  /* Body / 2 */
-  
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* or 150% */
-  
-  
   /* Neutrals/N600 */
-  
-  color: #344563
+  color: #344563;
   flex: none;
   flex-grow: 0;
   margin: 12px 0px;
@@ -144,9 +119,6 @@
   right: 48.22%;
   top: 470px;
   bottom: 18.87%;
-  
-  /* Neutrals/N400 */
-  
   background: #505F79;
 }
 
@@ -154,13 +126,12 @@
   padding-left: 10px;
 }
 
-
 h4{
   font-family : 'Poppins';
   font-style : normal;
   font-weight : 500;
   font-size : 16px;
-  line-height : 24px
+  line-height : 24px;
   margin-bottom : -0.0000099px;
 }
 
