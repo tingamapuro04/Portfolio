@@ -4,14 +4,10 @@
   position: absolute;
   width: 375px;
   height: 718px;
-  left: 0px;
-  top: 0px;
 }
 
 .header {
   display: flex;
-  left: 0px;
-  right: 0px;
   top: 44px;
   bottom: 0px;
   justify-content: space-between;
@@ -65,13 +61,11 @@
   color: #344563;
   flex: none;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px 0.001px;
 }
 
 .media {
   display: flex;
-  padding: 0%;
-  margin-top: 0px;
 }
 
 .media > li {
@@ -94,7 +88,7 @@
   bottom: 18.87%;
 }
 
-.mil{
+.mil {
   position: absolute;
   left: 16.47%;
   right: 67.2%;
@@ -134,5 +128,5 @@ h4 {
 }
 
 .hoverable:hover {
-  text-decoration:underline;
+  text-decoration: underline;
 }
