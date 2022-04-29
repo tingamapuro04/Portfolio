@@ -82,7 +82,7 @@ h1:hover {
   display: flex;
 }
 
-ul>li {
+ul > li {
   margin-right: 25px;
 }
 
@@ -188,7 +188,7 @@ h4 {
   margin: 12px 0.0001px;
 }
 
-.contact>h1 {
+.contact > h1 {
   font-size: 40px;
   font-weight: 700;
   text-align: center;
@@ -218,7 +218,7 @@ h4 {
   position: static;
   width: 295px;
   height: 50px;
-  top: calc(50% - 80px/ 2 - 104px);
+  top: calc(50% - 80px / 2 - 104px);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -734,7 +734,7 @@ h4 {
 
 input {
   height: 30px;
-  width:300px;
+  width: 300px;
   margin-bottom: 15px;
   border-radius: 9px;
 }
