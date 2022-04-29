@@ -30,6 +30,7 @@
 .title {
   width: 85%;
   line-height: 1.4em;
+  padding-top: 20%;
 }
 
 .title h1 {
@@ -41,11 +42,6 @@
   display: flex;
   align-items: center;
   color: rgba(23, 43, 77, 1);
-
-}
-
-.title {
-  padding-top: 20%;
 }
 
 section {
@@ -74,7 +70,7 @@ section {
 }
 
 .social > .hoverable {
-  color: #7F8cff;
+  color: #7f8cff;
 }
 
 .media {
@@ -132,7 +128,6 @@ section {
 
 .Main {
   padding-left: 10px;
-
 }
 
 h4 {
