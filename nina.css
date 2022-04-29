@@ -145,8 +145,31 @@ h4 {
 }
 
 .s-container {
-  background-color: #6070ff;
+  position: absolute;
   width: 375px;
-  height: 4692px;
-  background-color: aqua;
+  height: 2768px;
+  display: grid;
+  grid-template-columns: 327px;
+  grid-template-rows: 552px 596px 552px 596px;
+  background-color: black;
+}
+
+.box {
+  position: static;
+  width: 327px;
+  margin-top: 80px;
+  margin-left: 24px;
+  margin-right: 24px;
+  border-radius: 4%;
+  background: #FFFFFF;
+}
+
+.box-1 {
+  
+}
+.box-2 {
+  
+}
+.box-3 {
+
 }
