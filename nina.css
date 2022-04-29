@@ -150,7 +150,7 @@ h4 {
   height: 2768px;
   display: grid;
   grid-template-columns: 327px;
-  grid-template-rows: 640px auto 552px 596px;
+  grid-template-rows: 640px 700px 640px 700px;
   background-color: black;
 }
 
@@ -177,7 +177,7 @@ h4 {
   left: 16px;
   top: 16px;
   
-  background: url(/photos/Snapshoot\ Portfolio\ \(1\).png) no-repeat;
+  background: url(/photos/first.png) no-repeat;
   border-radius: 8px;
   
   /* Inside auto layout */
@@ -402,12 +402,84 @@ ul > li {
   color: #396df2;
 }
 
-.box-1 {
-  
-}
 .box-2 {
+  /* Auto layout */
   
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  
+  position: static;
+  /* width: 327px;
+  height: 596px; */
+  left: calc(50% - 327px/2);
+  top: 754px;
+  
+  /* Neutrals/N0 */
+  
+  background: #FFFFFF;
+  /* Neutrals/N40 */
+  
+  border: 1px solid #DFE1E6;
+  box-sizing: border-box;
+  border-radius: 16px;
+  
+  /* Inside auto layout */
+  
+  /* flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 88px 0px; */
 }
-.box-3 {
 
+.snap1 {
+  background: url(/photos/second.png) no-repeat;
+  position: static;
+  width: 295px;
+  height: 220px;
+  left: 16px;
+  top: 16px;
+  border-radius: 8px;
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+
+.body1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  
+  position: static;
+  width: 295px;
+  height: 124px;
+  left: 0px;
+  top: calc(50% - 124px/2 - 104px);
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+
+.title2 {
+  width: 50%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: -10px;
+}
+
+.quali1 > ul {
+  display: flex;
+  padding: 0px;
 }
