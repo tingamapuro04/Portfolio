@@ -44,10 +44,10 @@
   color: rgba(23, 43, 77, 1);
 }
 
-section {
+.Main {
   background: url(/photos/header-shapes\ mobile.png) no-repeat;
   background-size: cover;
-  position: absolute;
+  position: relative;
   width: 375px;
   height: 597.15px;
 }
@@ -162,6 +162,24 @@ h4 {
   margin-right: 24px;
   border-radius: 4%;
   background: #FFFFFF;
+}
+
+.snap {
+  position: static;
+  width: 295px;
+  height: 220px;
+  left: 16px;
+  top: 16px;
+  
+  background: url(/photos/Snapshoot\ Portfolio\ \(1\).png) no-repeat;
+  border-radius: 8px;
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 0px;
 }
 
 .box-1 {
