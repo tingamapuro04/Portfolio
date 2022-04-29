@@ -50,6 +50,11 @@
   position: relative;
   width: 375px;
   height: 597.15px;
+  padding-left: 10px;
+}
+
+h1:hover {
+  text-decoration: underline;
 }
 
 .text {
@@ -75,6 +80,10 @@
 
 .media {
   display: flex;
+}
+
+ul>li {
+  margin-right: 25px;
 }
 
 .media > li {
@@ -126,10 +135,6 @@
   background: #505f79;
 }
 
-.Main {
-  padding-left: 10px;
-}
-
 h4 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -160,7 +165,7 @@ h4 {
   margin-left: 24px;
   margin-right: 24px;
   border-radius: 4%;
-  background: #ffffff;
+  background: #fff;
 }
 
 .box-1 {
@@ -181,6 +186,12 @@ h4 {
   order: 0;
   flex-grow: 0;
   margin: 12px 0.0001px;
+}
+
+.contact>h1 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
 }
 
 .body {
@@ -207,7 +218,7 @@ h4 {
   position: static;
   width: 295px;
   height: 50px;
-  top: calc(50% - 80px/2 - 104px);
+  top: calc(50% - 80px/ 2 - 104px);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -244,10 +255,6 @@ h4 {
   height: 50%;
   width: 100%;
   font-size: 20px;
-}
-
-ul > li {
-  margin-right: 25px;
 }
 
 .can {
@@ -373,9 +380,9 @@ ul > li {
   align-items: center;
   padding: 16px;
   position: static;
-  left: calc(50% - 327px/2);
+  left: calc(50% - 327px / 2);
   top: 754px;
-  background: #FFFFFF;
+  background: #fff;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
@@ -403,7 +410,7 @@ ul > li {
   position: static;
   width: 295px;
   height: 124px;
-  top: calc(50% - 124px/2 - 104px);
+  top: calc(50% - 124px / 2 - 104px);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -469,7 +476,7 @@ ul > li {
   height: 1263px;
   top: 3495px;
   border-top-right-radius: 10%;
-  background: #FFFFFF;
+  background: #fff;
 }
 
 .Self {
@@ -568,10 +575,10 @@ ul > li {
 
 .Self-icons > ul {
   display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-left: 0.001px;
-    list-style-type: none;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 0.001px;
+  list-style-type: none;
 }
 
 .submit {
@@ -582,16 +589,15 @@ ul > li {
   position: static;
   width: 199px;
   height: 48px;
-  left: 0px;
-  top: calc(50% - 48px/2 + 180.5px);
-  border: 0px solid #6070ff;
+  top: calc(50% - 48px / 2 + 180.5px);
+  border: 0.001px solid #6070ff;
   box-sizing: border-box;
   border-radius: 8px;
   flex: none;
   order: 3;
   flex-grow: 0;
   margin: 12px 0.001px;
-} 
+}
 
 .submit > button {
   position: static;
@@ -649,8 +655,9 @@ ul > li {
   margin: 1px 10px;
   width: 120px;
   color: #6070ff;
-  height: 30px;
+  height: 40px;
   border-radius: 10px;
+  padding-left: 10px;
 }
 
 .script > img {
@@ -716,13 +723,7 @@ ul > li {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   line-height: 28px;
-  color: #ffffff;
-}
-
-.contact > h1 {
-  font-size: 40px;
-  font-weight: 700;
-  text-align: center;
+  color: #fff;
 }
 
 .form {
@@ -756,7 +757,7 @@ textarea {
   background: url(/photos/header-shapes\ mobile.png) no-repeat;
 }
 
-p:hover{
+p:hover {
   text-decoration: 2px underline lightskyblue;
 }
 
@@ -764,9 +765,9 @@ ul > li:hover {
   text-decoration: underline aqua;
 }
 
-h1:hover {
+/* h1:hover {
   text-decoration: underline;
-}
+} */
 
 button:hover {
   text-decoration: #7f8cff underline;
