@@ -1,73 +1,34 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+## Project Name
 
-# Project Name
+Portflio:Setup and Mobile version skeleton
 
-> Description the project.
+## Description
 
+A project on a mobile version of a page where i am setting up the first page using only HTML and Css.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- Html
+- Css
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+This is the first milestone project at microverse where we start by a skeleton mobile layout.
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
+- GitHub: [@githubhandle](https://github.com/tingamapuro04)
+- Name : Adoyo Alphonce Mobutu
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+Give a ⭐️ if you like this project! and let me know of any issues that may even make it better.
 
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+
+## Copyright
+© Adoyo M Alphonce.

@@ -1,0 +1,145 @@
+.container {
+  /* background: url(/photos/header-shapes\ mobile.png)  no-repeat;
+  background-size: cover;
+  position: absolute; */
+  width: 375px;
+  height: 718px;
+}
+
+.header {
+  display: flex;
+  top: 44px;
+  bottom: 0.001px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header a {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  margin-left: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6070ff;
+}
+
+.title {
+  width: 85%;
+  line-height: 1.4em;
+  padding-top: 20%;
+}
+
+.title h1 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: rgba(23, 43, 77, 1);
+}
+
+section {
+  background: url(/photos/header-shapes\ mobile.png) no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 375px;
+  height: 597.15px;
+}
+
+.text {
+  position: static;
+  width: 327px;
+  height: 146px;
+  left: 24px;
+  top: 276px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  flex-grow: 0;
+  margin: 12px 0.001px;
+}
+
+.social > .hoverable {
+  color: #7f8cff;
+}
+
+.media {
+  display: flex;
+}
+
+.media > li {
+  list-style: none;
+}
+
+.media > li > a :hover {
+  border: 3px solid #6070ff;
+}
+
+.twi {
+  position: absolute;
+  left: 1.4%;
+  right: 88.27%;
+  top: 480px;
+  bottom: 18.88%;
+}
+
+.git {
+  position: absolute;
+  left: 23.13%;
+  right: 57.07%;
+  top: 480px;
+  bottom: 18.87%;
+}
+
+.mil {
+  position: absolute;
+  left: 16.47%;
+  right: 67.2%;
+  top: 483px;
+  bottom: 19.21%;
+}
+
+.lin {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 33px;
+  top: 480px;
+}
+
+.angel {
+  position: absolute;
+  left: 30%;
+  right: 48.22%;
+  top: 480px;
+  bottom: 18.87%;
+  background: #505f79;
+}
+
+.Main {
+  padding-left: 10px;
+}
+
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: -0.0000099px;
+  color: #6070ff;
+}
+
+.hoverable:hover {
+  text-decoration: underline;
+}
