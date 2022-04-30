@@ -768,15 +768,6 @@ textarea {
   margin-left: 100px;
 }
 
-.abs {
-  position: absolute;
-  width: 200px;
-  height: 709.17px;
-  left: 240px;
-  top: 4700px;
-  background: url(/photos/header-shapes\ mobile.png) no-repeat;
-}
-
 p:hover {
   text-decoration: 2px underline lightskyblue;
 }
