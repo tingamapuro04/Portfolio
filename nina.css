@@ -191,7 +191,7 @@ h4 {
   background: url(/photos/Tanya.png) no-repeat;
   border-radius: 8px;
   flex: none;
-  order: 0;
+  order: 1;
   flex-grow: 0;
   margin-bottom: 20px;
 }
