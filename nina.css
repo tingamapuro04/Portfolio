@@ -707,8 +707,9 @@ h4 {
   position: static;
   width: 327px;
   height: 42px;
-  top: 320.15px;
-  margin-left: 64px;
+  top: 340.15px;
+  margin-left: 14px;
+  margin-top: 12px;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -724,6 +725,7 @@ h4 {
 .frame > img {
   margin-left: 24px;
   width: 300px;
+
 }
 
 .ski {
@@ -746,7 +748,7 @@ h4 {
 .l-container {
   position: relative;
   background-color: #396df2;
-  height: 779px;
+  height: 805px;
   width: 375px;
   top: 4013px;
   margin-top: -100px;
@@ -783,7 +785,7 @@ textarea {
 }
 
 .last {
-  margin-top: 65px;
+  margin-top: 5px;
   margin-left: 100px;
 }
 
