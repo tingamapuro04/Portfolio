@@ -155,7 +155,7 @@ h4 {
   height: 2768px;
   display: grid;
   grid-template-columns: 327px;
-  grid-template-rows: 660px 700px 660px 700px;
+  grid-template-rows: 650px 700px 650px 700px;
 }
 
 .box {
@@ -191,7 +191,7 @@ h4 {
   background: url(/photos/Tanya.png) no-repeat;
   border-radius: 8px;
   flex: none;
-  order: 1;
+  order: 0;
   flex-grow: 0;
   margin-bottom: 20px;
 }
@@ -203,96 +203,78 @@ h4 {
 }
 
 .body {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0.0001px;
-  position: static;
-  width: 295px;
-  height: 288px;
-  left: 16px;
-  top: 248px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  margin: 12px 0.001px;
+  margin-top: 1px;
 }
 
 .Tonic {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0.001px;
-  position: static;
-  width: 295px;
-  height: 50px;
-  top: calc(50% - 80px / 2 - 104px);
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin-top: 15px;
+  height: 80px;
 }
 
-.Tonic > .title {
+.title1 {
   position: static;
   width: 295px;
-  height: 26px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 1px 0.0001px;
-}
-
-.Tonic > .title > h1 {
+  height: 36px;
+  margin-top: -39px;
+  margin-bottom: 12px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
-  line-height: 34px;
-  color: #172b4d;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  line-height: 44px;
 }
 
-.title1 {
-  /* display: flex;
-  align-items: flex-end;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  height: 50%;
-  width: 100%;
-  font-size: 20px; */
-  width: 50%;
-  font-family: 'Poppins', sans-serif;
-  font-size: 12px;
-  font-weight: 700;
-  margin-top: -10px;
+.quali {
+  position: static;
+  width: 276px;
+  height: 32px;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  padding: 1px;
+  align-items: center;
+}
+
+.para {
+  margin-top: 14px;
 }
 
 .can {
   list-style-type: none;
   color: rgba(52, 69, 99, 1);
   font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  position: static;
+  width: 50px;
+  height: 16px;
+}
+
+.year {
+  width: 29px;
+  color: #7a869a;
 }
 
 .back {
-  color: rgba(122, 134, 154, 1);
-  list-style-type: circle;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  width: 88px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 13px;
+  color: #7A869A;
 }
 
-.quali {
-  position: static;
-  width: 100%;
-  height: 50%;
-  top: 8px;
-  margin-top: -10%;
-}
-
-.quali > ul {
-  display: flex;
-  padding-left: 0.001px;
-  align-items: flex-start;
+.para > p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
 }
 
 .para1 {
@@ -301,14 +283,15 @@ h4 {
   height: 76px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 20px;
+  font-weight: 460;
+  font-size: 16px;
+  line-height: 22px;
   color: #344563;
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin: 12px 0.0001px;
+  margin-top: -15px;
+  margin-bottom: 12px;
 }
 
 .Tech {
@@ -332,12 +315,6 @@ h4 {
   list-style: none;
   padding: 0.0001px;
 }
-
-/* .Tech > ul > li {
-  background-color: rgba(235, 235, 255, 1);
-  border-radius: 8px;
-  color: #6070ff;
-} */
 
 .html {
   width: 60px;
@@ -390,8 +367,8 @@ h4 {
   height: 44px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
+  font-weight: 560;
+  font-size: 20px;
   line-height: 24px;
   border-radius: 8px;
   color: #396df2;
@@ -441,11 +418,15 @@ h4 {
 }
 
 .title2 {
-  width: 50%;
+  width: 100%;
   font-family: 'Poppins', sans-serif;
-  font-size: 12px;
+  margin-top: -50px;
+  margin-bottom: -20px;
+  font-style: normal;
   font-weight: 700;
-  margin-top: -10px;
+  font-size: 32px;
+  line-height: 40px;
+  color: #172B4D;
 }
 
 .quali1 > ul {
@@ -791,8 +772,8 @@ textarea {
   position: absolute;
   width: 200px;
   height: 709.17px;
-  left: 153px;
-  top: 1px;
+  left: 240px;
+  top: 4700px;
   background: url(/photos/header-shapes\ mobile.png) no-repeat;
 }
 
@@ -803,10 +784,6 @@ p:hover {
 ul > li:hover {
   text-decoration: underline aqua;
 }
-
-/* h1:hover {
-  text-decoration: underline;
-} */
 
 button:hover {
   text-decoration: #7f8cff underline;
