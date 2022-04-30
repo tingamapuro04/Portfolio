@@ -240,7 +240,7 @@ h4 {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0px 0.0001px;
+  margin: 1px 0.0001px;
 }
 
 .Tonic > .title > h1 {
@@ -329,7 +329,6 @@ h4 {
 .Tech > ul {
   display: flex;
   align-items: flex-start;
-  /* justify-content: center; */
   list-style: none;
   padding: 0.0001px;
 }
