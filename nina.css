@@ -369,8 +369,7 @@ h4 {
   color: #6070ff;
   border-radius: 10px;
   padding-top: 9px;
-  font-family: 'Poppins',
-  sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .Submission {
@@ -725,7 +724,6 @@ h4 {
 .frame > img {
   margin-left: 24px;
   width: 300px;
-
 }
 
 .ski {
