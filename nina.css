@@ -266,11 +266,11 @@ h4 {
   font-weight: 600;
   font-size: 13px;
   line-height: 13px;
-  color: #7A869A;
+  color: #7a869a;
 }
 
 .para > p {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -426,7 +426,7 @@ h4 {
   font-weight: 700;
   font-size: 32px;
   line-height: 40px;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .quali1 > ul {
