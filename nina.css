@@ -1,17 +1,25 @@
+.Main-container {
+  width: 375px;
+  height: 5572px;
+  background: #E5E5E5;
+}
+
+
 .container {
-  /* background: url(/photos/header-shapes\ mobile.png)  no-repeat;
-  background-size: cover;
-  position: absolute; */
   width: 375px;
   height: 718px;
+  background: rgba(255, 255, 255, 1)
 }
 
 .header {
   display: flex;
-  top: 44px;
-  bottom: 0.001px;
-  justify-content: space-between;
+  position: absolute;
+  top: 20px;
+  justify-content: flex-end;
+  flex: 1;
   align-items: center;
+  width: 23.4375em;
+  height: 3em;
 }
 
 .header a {
@@ -21,36 +29,58 @@
   font-size: 18px;
   line-height: 20px;
   margin-left: 14px;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  /* display: flex; */
+  /* align-items: center;
+  text-align: center; */
+  flex: 5;
   color: #6070ff;
 }
 
+.header img {
+  margin-right: 36px;
+}
+
 .title {
-  width: 85%;
-  line-height: 1.4em;
-  padding-top: 20%;
+  position: static;
+  width: 327px;
+  height: 150px;
+  left: 24px;
+  top: 114px;
+  
+  display: flex;
+  align-items: center;
+  
+  /* Neutrals/N800 */
+  
+  color: #172B4D;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 0px;
 }
 
 .title h1 {
+  font-size: 50px;
+  line-height: 52px;
+  font-weight: 700;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 900;
-  font-size: 40px;
-  line-height: 52px;
-  display: flex;
-  align-items: center;
-  color: rgba(23, 43, 77, 1);
 }
 
 .Main {
   background: url(/photos/header-shapes\ mobile.png) no-repeat;
-  background-size: cover;
-  position: relative;
+  position: absolute;
   width: 375px;
-  height: 597.15px;
-  padding-left: 10px;
+  height: 604px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 100px 24px;
+  margin-top: 100px;
 }
 
 h1:hover {
@@ -64,18 +94,29 @@ h1:hover {
   left: 24px;
   top: 276px;
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #344563;
-  flex: none;
-  flex-grow: 0;
-  margin: 12px 0.001px;
+}
+
+.social {
+  position: static;
+  width: 137px;
+  height: 24px;
+  left: 24px;
+  margin-top: 26px;
 }
 
 .social > .hoverable {
   color: #7f8cff;
+}
+
+.s-icons {
+  position: static;
+  width: 170.17px;
+  height: 25px;
+  left: 24px;
+  top: 470px;
 }
 
 .media {
@@ -96,25 +137,25 @@ ul > li {
 
 .twi {
   position: absolute;
-  left: 1.4%;
+  left: 6%;
   right: 88.27%;
-  top: 480px;
+  top: 473px;
   bottom: 18.88%;
 }
 
 .git {
   position: absolute;
-  left: 23.13%;
+  left: 32.13%;
   right: 57.07%;
-  top: 480px;
+  top: 473px;
   bottom: 18.87%;
 }
 
 .mil {
   position: absolute;
-  left: 16.47%;
+  left: 22.47%;
   right: 67.2%;
-  top: 483px;
+  top: 476px;
   bottom: 19.21%;
 }
 
@@ -122,15 +163,15 @@ ul > li {
   position: absolute;
   width: 20px;
   height: 20px;
-  left: 33px;
-  top: 480px;
+  left: 14%;
+  top: 473px;
 }
 
 .angel {
   position: absolute;
-  left: 30%;
-  right: 48.22%;
-  top: 480px;
+  left: 42%;
+  right: 78.22%;
+  top: 473px;
   bottom: 18.87%;
   background: #505f79;
 }
@@ -729,7 +770,7 @@ h4 {
   background-color: #396df2;
   height: 805px;
   width: 375px;
-  top: 4013px;
+  top: 4143px;
   margin-top: -100px;
   border-top-left-radius: 20%;
   display: flex;
