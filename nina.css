@@ -738,8 +738,9 @@ h4 {
 }
 
 .contact {
-  padding-top: 89px;
-  margin: 1px 24px;
+  padding-top: 0px;
+  margin: 0px 24px;
+  margin-top: -50px;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   line-height: 28px;
@@ -798,4 +799,11 @@ button:hover {
 
 .snap3:hover {
   border: 2px solid orange;
+}
+
+.ellipse {
+  display: flex;
+  margin-top: 50px;
+  padding: 0px;
+  margin-left: 330px;
 }
