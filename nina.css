@@ -782,28 +782,21 @@ h4 {
   width: 327px;
   height: 102px;
   margin-top: -29px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  /* or 140% */
-  
   text-align: center;
-  
-  /* Primary/B50 */
-  
-  color: #EBEBFF;
+  color: #ebebff;
 }
 
 .Con h1 {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  /* or 130% */
-  
   display: flex;
   align-items: center;
   text-align: center;
@@ -838,9 +831,9 @@ input {
   padding: 12px 16px;
   width: 140px;
   height: 48px;
-  background: #FFFFFF;
+  background: #fff;
   border-radius: 8px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -866,10 +859,6 @@ p:hover {
 
 ul > li:hover {
   text-decoration: underline aqua;
-}
-
-button:hover {
-  text-decoration: #7f8cff underline;
 }
 
 .snap:hover {
@@ -904,12 +893,12 @@ button:hover {
 }
 
 button:hover {
-  background-color: #6070FF;
+  background-color: #6070ff;
   color: aqua;
 }
 
 button:active {
-  background: #2230D2;
+  background: #2230d2;
 }
 
 textarea:invalid {
