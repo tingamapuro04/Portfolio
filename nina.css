@@ -679,6 +679,8 @@ h4 {
   order: 0;
   flex-grow: 0;
   border-radius: 10px;
+  border: 1px solid #fff;
+  background: #fff
 }
 
 .Skills {
