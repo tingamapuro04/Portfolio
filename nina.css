@@ -799,6 +799,7 @@ input {
   width: 300px;
   margin-bottom: 15px;
   border-radius: 9px;
+  border: 1px solid #fff;
 }
 
 textarea {
