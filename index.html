@@ -248,21 +248,28 @@
     
         <div class="l-container">
             <div class="contact">
-                <h1>Contact me</h1>
-                <p>If you have an application you are interested in developing, a feature that you need built or a project that needs
-                coding. I’d love to help with it</p>
+                <div class="Con">
+                    <h1>Contact me</h1>
+                </div>
+                <div class="Con-p">
+                    <p>If you have an application you are interested in developing, a feature that you need built or a project that needs
+                    coding. I’d love to help with it</p>
+                </div>
             </div>
             <div class="form">
-                <form action="GET">
-                    <input type="text" name="name" placeholder="Merianne">
+                <form action="https://formspree.io/f/xzbokqrj" method="POST">
+                    <input type="text" name="name" placeholder="Merianne" maxlength="30" required>
                     <br>
-                    <input type="email" name="email" placeholder="natajayanj14@gmail.com">
+                    <input type="email" name="email" placeholder="natajayanj14@gmail.com" required>
                     <br>
-                    <textarea name="name"  cols="38" rows="10">Write your message here</textarea>
-                    <div class="submit">
-                        <button type="submit">Get It Touch</button>
+                    <textarea name="name"  cols="38" rows="8" required maxlength="500" placeholder="Write your message here"></textarea>
+                    <div class="submit-l">
+                        <button class="submit-k" type="submit">Get It Touch</button>
                     </div>
                 </form>
+            </div>
+            <div class="abs">
+                <img src="/photos/buttom.png" alt="">
             </div>
         </div>
     </div>
