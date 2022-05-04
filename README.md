@@ -22,6 +22,12 @@ This is the first milestone project at microverse where we start by a skeleton m
 - GitHub: [@githubhandle](https://github.com/tingamapuro04)
 - Name : Adoyo Alphonce Mobutu
 
+👤 **Author2**
+- Name : Shaqayq Darwazi
+
+👤 **Author3**
+- Name : Basir Mohammadi
+
 ## Show your support
 
 Give a ⭐️ if you like this project! and let me know of any issues that may even make it better.
