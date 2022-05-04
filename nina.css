@@ -1,9 +1,8 @@
 .Main-container {
   width: 375px;
   height: 5450px;
-  background: #E5E5E5;
+  background: #e5e5e5;
 }
-
 
 .container {
   width: 375px;
@@ -30,9 +29,6 @@
   font-size: 18px;
   line-height: 20px;
   margin-left: 14px;
-  /* display: flex; */
-  /* align-items: center;
-  text-align: center; */
   flex: 5;
   color: #6070ff;
 }
@@ -47,21 +43,13 @@
   height: 150px;
   left: 24px;
   top: 114px;
-  
   display: flex;
   align-items: center;
-  
-  /* Neutrals/N800 */
-  
-  color: #172B4D;
-  
-  
-  /* Inside auto layout */
-  
+  color: #172b4d;
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px 1px;
 }
 
 .title h1 {
@@ -681,7 +669,7 @@ h4 {
   flex-grow: 0;
   border-radius: 10px;
   border: 1px solid #fff;
-  background: #fff
+  background: #fff;
 }
 
 .Skills {
@@ -788,7 +776,6 @@ h4 {
   margin: 1px 24px;
   margin-top: 120px;
   font-family: 'Poppins', sans-serif;
-
   font-weight: 400;
   line-height: 28px;
   color: #fff;
@@ -860,7 +847,7 @@ button:hover {
 .ellipse {
   display: flex;
   margin-top: 50px;
-  padding: 0px;
+  padding: 0.001px;
   margin-left: 330px;
 }
 
