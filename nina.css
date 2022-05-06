@@ -268,8 +268,7 @@ h4 {
   display: none;
   list-style-type: none;
   color: rgba(52, 69, 99, 1);
-  font-family: 'Poppins',
-  sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -295,8 +294,7 @@ h4 {
 .full {
   display: none;
   position: relative;
-  font-family: 'Poppins',
-  sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   width: 108px;
   font-weight: 600;
@@ -960,7 +958,7 @@ textarea:valid {
   display: none;
 }
 
-@media only screen and (min-width:768px) {
+@media only screen and (min-width: 768px) {
   .Main-container {
     position: relative;
     width: 98vw;
@@ -976,7 +974,6 @@ textarea:valid {
     left: 0%;
     top: 1px;
   }
-
 
   .header {
     position: absolute;
@@ -999,25 +996,24 @@ nav {
   width: 34%;
 }
 
-.hidden {
-  display: block;
-}
+  .hidden {
+    display: block;
+  }
 
-.hidden-ul {
-  display: flex;
-  flex-direction: row;
-}
+  .hidden-ul {
+    display: flex;
+    flex-direction: row;
+  }
 
-.hidden-ul li {
-  list-style: none;
-  margin-right: 8%;
-  font-size: 20px;
-  color: #344563;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-}
-
+  .hidden-ul li {
+    list-style: none;
+    margin-right: 8%;
+    font-size: 20px;
+    color: #344563;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+  }
 
   .Main {
     position: absolute;
@@ -1040,7 +1036,6 @@ nav {
     margin-left: 15.97%;
     margin-right: 45%;
     margin-top: 5%;
-    
   }
 
   .title h1 {
@@ -1058,7 +1053,7 @@ nav {
     position: static;
     width: 63.8889%;
     height: auto;
-    left: 0px;
+    left: 0%;
     margin-top: -2%;
     margin-left: 15.97%;
   }
@@ -1095,16 +1090,15 @@ nav {
     margin-left: 15.97%;
   }
 
-  .s-icons .media{
-    display: flex;
-    flex-direction: row;
-    margin-left: -22%;
-  }
-
   .media {
     margin-top: 30%;
   }
 
+  .s-icons .media {
+    display: flex;
+    flex-direction: row;
+    margin-left: -22%;
+  }
 
   .s-container {
     display: flex;
@@ -1114,12 +1108,10 @@ nav {
     position: absolute;
     width: 100%;
     height: 2694px;
-    left: 0px;
+    left: 0%;
     top: 917px;
     background: rgba(223, 225, 230, 1);
   }
-
-  
 
   .box {
     width: 80%;
@@ -1169,7 +1161,7 @@ nav {
     position: static;
     width: 99%;
     left: 2.076124567%;
-    top: calc(50% - 98px/2 - 149.5px);
+    top: calc(50% - 98px / 2 - 149.5px);
   }
 
   .alphonce {
@@ -1180,6 +1172,7 @@ nav {
     left: 0%;
     top: 0%;
   }
+
   .title1 {
     position: static;
     width: 91.176471%;
@@ -1196,7 +1189,7 @@ nav {
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-    color: #091E42;
+    color: #091e42;
   }
 
   .tinga {
@@ -1207,7 +1200,7 @@ nav {
     position: static;
     width: 54.59558824%;
     height: 40px;
-    left: 0px;
+    left: 0.000001px;
     top: 58px;
     margin-top: 1.875rem;
   }
@@ -1219,11 +1212,7 @@ nav {
   }
 
   .Tech {
-    width: 37.31617647%;
-    margin-left: 4.411765%;
-    height: 1.5rem;
-    font-size: 12px;
-    line-height: 1rem;
+    
   }
 
   .Tech > ul > li {
@@ -1256,7 +1245,6 @@ nav {
     height: 445px;
     left: 51.03806228%;
     top: 2.076124567%;
-    
   }
 
   .body1 {
@@ -1273,7 +1261,7 @@ nav {
     width: 91.17647%;
     height: auto;
     left: 4.411764706%;
-    top: calc(50% - 98px/2 - 159.5px);
+    top: calc(50% - 98px / 2 - 159.5px);
     margin-left: 4.411764706%;
     margin-top: 2%;
     box-sizing: border-box;
@@ -1348,6 +1336,10 @@ nav {
     margin-top: 1%;
     width: 57%;
     height: auto;
+    margin-left: 4.411765%;
+    height: 1.5rem;
+    font-size: 12px;
+    line-height: 1rem;
   }
 
   .Tech > ul {
@@ -1366,8 +1358,8 @@ nav {
 
   .box-3 {
     top: 48.3548627%;
-    left: 0px;
-    right: 0px;
+    left: 0.0000001px;
+    right: 0.000001px;
   }
 
   .snap3 {
@@ -1405,7 +1397,7 @@ nav {
     position: absolute;
     width: 100%;
     height: 924px;
-    left: 0px;
+    left: 0.000001px;
     top: 70.43902439%;
     background: #fff;
     display: flex;
@@ -1423,7 +1415,7 @@ nav {
   .Intro {
     position: static;
     width: 100%;
-    font-size: 2.0rem;
+    font-size: 2rem;
     line-height: 52px;
     padding-top: 6px;
     margin-right: 1.5625rem;
@@ -1488,8 +1480,8 @@ nav {
   .list-script img {
     height: 3rem;
     width: 3rem;
-    margin-top: .75rem;
-    margin-bottom: -.75rem;
+    margin-top: 0.75rem;
+    margin-bottom: -0.75rem;
   }
 
   .list-script p {
@@ -1509,7 +1501,7 @@ nav {
     top: 87%;
     width: 100%;
     height: 770px;
-    background: url(/photos/contact-back.png) no-repeat , url(/photos/mobutu.png) no-repeat;
+    background: url(/photos/contact-back.png) no-repeat, url(/photos/mobutu.png) no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -1552,4 +1544,4 @@ nav {
   .para1-p2 {
     display: block;
   }
-} 
+}
