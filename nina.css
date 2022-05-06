@@ -987,14 +987,12 @@ textarea:valid {
   }
 
   .gol a{
-    /* display: flex;
-    justify-content:calc(50% -98px/2); */
     margin-left: 17%;
   }
 
-nav {
-  width: 34%;
-}
+  nav {
+    width: 34%;
+  }
 
   .hidden {
     display: block;
@@ -1211,10 +1209,6 @@ nav {
     margin-left: 4.411765%;
   }
 
-  .Tech {
-    
-  }
-
   .Tech > ul > li {
     padding: 2px;
     height: 1.3rem;
@@ -1337,7 +1331,6 @@ nav {
     width: 57%;
     height: auto;
     margin-left: 4.411765%;
-    height: 1.5rem;
     font-size: 12px;
     line-height: 1rem;
   }
