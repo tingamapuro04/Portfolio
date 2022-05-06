@@ -908,3 +908,398 @@ textarea:invalid {
 textarea:valid {
   border: 2px solid green;
 }
+
+
+@media screen and (min-width:768px) {
+  .Main-container {
+    position: relative;
+    width: 79.1vw;
+    height: 5125px;
+    background: red;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container {
+    position: absolute;
+    width: 1440px;
+    height: 916px;
+    left: 0px;
+    top: 1px;
+  }
+
+  .header {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 4.5rem;
+    background-color: #344563;
+  }
+
+  .Main {
+    position: absolute;
+    width: 1397.4px;
+    height: 721.46px;
+    left: 34.6px;
+    top: 0px;
+    background: url(/photos/Header-bg@2x.png) no-repeat;
+    background-size:100%;
+    box-sizing: border-box;
+  }
+
+  .s-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 142px;
+    
+    position: absolute;
+    width: 1440px;
+    height: 2694px;
+    left: 0px;
+    top: 917px;
+  }
+
+  .title {
+    position: static;
+    width: 900px;
+    height: 100px;
+    margin-left: 13.25rem;
+    margin-right: 16.25rem;
+    margin-top: 7.4375rem;
+  }
+
+  .title h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 60px;
+    padding-right: 26.25rem;
+    color: #091E42;
+  }
+
+  .text {
+    position: static;
+    width: 920px;
+    height: 98px;
+    left: 0px;
+    margin-top: 0.75rem;
+    top: 134px;
+    margin-left: 13.25rem;
+  }
+
+  .text p {
+    padding-right: 3%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #344563;
+  }
+
+  .social {
+    position: static;
+    width: 137px;
+    height: 24px;
+    margin-left: 13.25rem;
+    margin-top: .75rem;
+  }
+
+  .social a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
+  }
+
+  .s-icons {
+    width: 170.17px;
+    height: 25px;
+    left: 260px;
+    top: 642px;
+    margin-left: 13.25rem;
+  }
+
+  .twi {
+    margin-left: 9.8rem;
+    margin-top: 7px;
+  }
+
+  .lin {
+    margin-left: 5.15rem;
+    margin-top: 0.45%;
+  }
+
+  .mil {
+    margin-top: 0.45%;
+  }
+
+  .git {
+    margin-left: -6.2rem;
+    margin-top: 0.45%;
+  }
+
+  .angel {
+    margin-left: -12.4rem;
+    margin-top: 0.45%;
+  }
+
+  .s-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0%;
+    position: absolute;
+    width: 79vw;
+    height: 2694px;
+    left: 0px;
+    top: 917px;
+    background: rgba(223, 225, 230, 1);
+  }
+
+  .box {
+    width: 80%;
+    height: 19%;
+    background: #fff;
+    border-radius: 1.5rem;
+    box-sizing: border-box;
+    position: absolute;
+    margin-left: 9.52778%;
+  }
+
+  .box-1 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+  }
+
+  .snap {
+    background: url(/photos/snap1D.png) no-repeat;
+    position: absolute;
+    width: 47.0588%;
+    height: 448px;
+    right: 50.8651%;
+    left: 2.076124567%;
+    top: 2.076124567%;
+  }
+
+  .body {
+    position: absolute;
+    width: 47.0588%;
+    height: 445px;
+    left: 51.03806228%;
+    top: 2.076124567%;
+    background-color: aqua;
+  }
+
+  .Tonic {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.00001px;
+    margin: 1.5rem 1.375rem;
+    position: static;
+    width: 496px;
+    height: 98px;
+    left: 2.076124567%;
+    top: calc(50% - 98px/2 - 149.5px);
+  }
+
+  .title1 {
+    position: static;
+    width: 91.176471%;
+    height: 46px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .quali {
+    position: static;
+    width: 54.59558824%;
+    height: 40px;
+    left: 0px;
+    top: 58px;
+    margin-top: 1.875rem;
+  }
+
+  .para {
+    position: static;
+    width: 91.176471%;
+    margin-left: 4.411765%;
+  }
+
+  .Tech {
+    width: 37.31617647%;
+    margin-left: 4.411765%;
+    height: 1.5rem;
+    font-size: 12px;
+    line-height: 1rem;
+  }
+
+  .Tech > ul > li {
+    padding: 2px;
+    height: 1.3rem;
+    margin-right: 0.3125rem;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Submission {
+    margin-left: 4.411764706%;
+    height: 20.382%;
+    width: 90%;
+  }
+
+  .box-2 {
+    top: 24.67%;
+    left: 0px;
+    flex-direction: row;
+  }
+
+  .snap1 {
+    background: url(/photos/snap2D.png) no-repeat;
+    order: 1;
+    position: absolute;
+    width: 47.0588%;
+    height: 445px;
+    left: 51.03806228%;
+    top: 2.076124567%;
+    
+  }
+
+  .body1 {
+    position: absolute;
+    width: 47.0588%;
+    height: 448px;
+    right: 50.8651%;
+    left: 2.076124567%;
+    top: 2.076124567%;
+    background-color: aqua;
+  }
+
+  .Multi {
+    position: static;
+    width: 91.17647%;
+    height: 98px;
+    left: 4.411764706%;
+    top: calc(50% - 98px/2 - 159.5px);
+    margin-left: 4.411764706%;
+    margin-top: 24px;
+    box-sizing: border-box;
+  }
+
+  .title2 {
+    width: 100%;
+    height: 46px;
+    margin-top: -36.9px;
+  }
+
+  .quali1 {
+    position: static;
+    width: 75%;
+    height: 40px;
+    left: 0px;
+    margin-top: 22px;
+  }
+
+  .can {
+    margin-top: 10px;
+  }
+
+  .back {
+    margin-top: 10px;
+  }
+
+  .para1 {
+    position: static;
+    width: 91.176471%;
+    margin-left: 4.411765%;
+  }
+
+
+
+  .box-3 {
+    top: 48.3548627%;
+    left: 0px;
+    right: 0px;
+  }
+
+  .snap3 {
+    background: url(/photos/snap3D.png) no-repeat;
+    position: absolute;
+    width: 47.0588%;
+    height: 448px;
+    right: 50.8651%;
+    left: 2.076124567%;
+    top: 2.076124567%;
+  }
+
+  .box-4 {
+    top: 72.67%;
+    left: 0px;
+    flex-direction: row;
+  }
+
+  .snap4 {
+    background: url(/photos/snap4D.png) no-repeat;
+    order: 1;
+    position: absolute;
+    width: 47.0588%;
+    height: 445px;
+    left: 51.03806228%;
+    top: 2.076124567%;
+  }
+
+  .t-container {
+    position: absolute;
+    width: 100%;
+    height: 924px;
+    left: 0px;
+    top: 70.43902439%;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .l-container {
+    top: 99%;
+  }
+} 
