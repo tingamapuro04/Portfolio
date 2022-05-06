@@ -34,8 +34,9 @@
 }
 
 .header a {
-  background-color: pink;
+  background-color: rgb(224, 129, 145);
   transform: rotate(45deg) translateX(150px);
+  padding: 10px;
 }
 
 .header img {
