@@ -14,6 +14,8 @@
 .Submission :hover {
   background-color: green;
 }
+
+
 .header {
   display: flex;
   position: absolute;
@@ -233,6 +235,11 @@ h4 {
   order: 0;
   flex-grow: 0;
   margin-bottom: 20px;
+  transition: width 2s;
+}
+
+.snap :hover {
+  background-size: 200px;
 }
 
 .contact > h1 {
