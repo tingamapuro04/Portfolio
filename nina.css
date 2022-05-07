@@ -959,7 +959,7 @@ textarea:valid {
   display: none;
 }
 
-@media only screen and (min-width: 375px){
+@media only screen and (min-width: 375px) {
   .Main-container {
     width: 99.99vw;
   }
@@ -1016,12 +1016,12 @@ textarea:valid {
     background-size: cover;
   }
 
-  .box-2, 
+  .box-2,
   .box-4 {
     height: 24%;
   }
 
-  .snap1, 
+  .snap1,
   .snap3 {
     background-size: cover;
     width: 100%;
@@ -1055,7 +1055,7 @@ textarea:valid {
   .l-container {
     width: 100%;
     top: 23%;
-    background-size: cover ;
+    background-size: cover;
   }
 }
 
