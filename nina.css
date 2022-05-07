@@ -1657,4 +1657,15 @@ textarea:valid {
     background-color: #2230d2;
     color: azure;
   }
+
+  .resume {
+    height: 100px;
+    width: 100%;
+  }
+
+  .resume > button {
+    width: 38%;
+    border: 1px solid #6070FF;
+    border-radius: 8px;
+  }
 }
