@@ -959,7 +959,7 @@ textarea:valid {
   display: none;
 }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 375.1px) {
   .Main-container {
     width: 99.99vw;
   }
@@ -976,6 +976,7 @@ textarea:valid {
   .Main {
     width: 100%;
     height: auto;
+    background-size: cover;
   }
 
   .title {
