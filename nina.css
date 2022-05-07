@@ -57,7 +57,8 @@
 }
 
 .Main {
-  background: url(/photos/header-shapes\ mobile.png) no-repeat;
+  background: url(./photos/header-shapes\ mobile.png) no-repeat;
+  background-size: cover;
   position: absolute;
   width: 375px;
   height: 604px;
@@ -179,7 +180,7 @@ h4 {
 }
 
 .box {
-  position: static;
+  position: absolute;
   width: 327px;
   margin-top: 80px;
   margin-left: 24px;
@@ -208,7 +209,7 @@ h4 {
   height: 220px;
   left: 16px;
   top: 16px;
-  background: url(/photos/Tanya.png) no-repeat;
+  background: url(./photos/Tanya.png) no-repeat;
   border-radius: 8px;
   flex: none;
   order: 0;
@@ -452,7 +453,7 @@ h4 {
 }
 
 .snap1 {
-  background: url(/photos/second.png) no-repeat;
+  background: url(./photos/second.png) no-repeat;
   position: static;
   width: 295px;
   height: 220px;
@@ -517,7 +518,7 @@ h4 {
   height: 220px;
   left: 16px;
   top: 16px;
-  background: url(/photos/third.png) no-repeat;
+  background: url(./photos/third.png) no-repeat;
   border-radius: 8px;
   flex: none;
   order: 0;
@@ -545,7 +546,7 @@ h4 {
   height: 220px;
   left: 16px;
   top: 16px;
-  background: url(/photos/fourth.png) no-repeat;
+  background: url(./photos/fourth.png) no-repeat;
   border-radius: 8px;
   flex: none;
   order: 0;
@@ -799,7 +800,7 @@ h4 {
 
 .l-container {
   position: relative;
-  background: url(/photos/contactbg.png), url(/photos/Contactme.png);
+  background: url(./photos/contactbg.png), url(./photos/Contactme.png);
   background-repeat: no-repeat, no-repeat;
   background-position: right top, left top;
   height: auto;
@@ -958,11 +959,111 @@ textarea:valid {
   display: none;
 }
 
-@media only screen and (min-width: 768px) {
+
+
+@media only screen and (min-width: 375px){
+  .Main-container {
+    width: 99.99vw;
+  }
+
+  .container {
+    width: 100%;
+    height: 860px;
+  }
+
+  .header {
+    width: 100%;
+  }
+
+  .Main {
+    width: 100%;
+    height: auto;
+  }
+
+  .title {
+    margin-left: 0.05%;
+    width: 50%;
+  }
+
+  .text {
+    width: 70%;
+    height: auto;
+    margin-left: 0.05%;
+  }
+
+  .social {
+    margin-top: -1%;
+    margin-left: 0.05%;
+  }
+
+  .s-container {
+    width: 100%;
+    display: flex;
+    height: 52%;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+
+  .box {
+    width: 80%;
+  }
+
+  .box-1 {
+    width: 80%;
+  }
+
+  .snap {
+    width: 100%;
+    background-size: cover;
+  }
+
+  .box-2, .box-4 {
+    height: 24%;
+  }
+
+  .snap1, .snap3 {
+    background-size: cover;
+    width: 100%;
+  }
+
+  .body1 {
+    margin-left: 3%;
+    width: auto;
+    height: 58%;
+  }
+
+  .Multi {
+    margin-left: 1%;
+    width: 100%;
+  }
+
+  .title2 h1 {
+    padding-right: 25%;
+  }
+
+  .para1 {
+    width: 100%;
+    height: auto;
+  }
+
+  .t-container {
+    margin-top: 37%;
+    width: 100%;
+  }
+
+  .l-container {
+    width: 100%;
+    top: 23%;
+    background-size: cover ;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
   .Main-container {
     position: relative;
-    width: 98vw;
-    height: 5125px;
+    width: 98.1vw;
     display: flex;
     flex-direction: column;
   }
@@ -970,7 +1071,6 @@ textarea:valid {
   .container {
     position: absolute;
     width: 100%;
-    height: 17.873%;
     left: 0%;
     top: 1px;
   }
@@ -1001,25 +1101,28 @@ textarea:valid {
   .hidden-ul {
     display: flex;
     flex-direction: row;
+    list-style-type: none;
+    color: rgba(52, 69, 99, 1);
+    font-weight: 500;
+    font-size: 20px;
   }
 
-  .hidden-ul li {
-    list-style: none;
-    margin-right: 8%;
-    font-size: 20px;
-    color: #344563;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 600;
+  .po a {
+    text-decoration: none;
+  }
+  .ab a {
+    text-decoration: none;
+  }
+  .co a {
+    text-decoration: none;
   }
 
   .Main {
     position: absolute;
     width: 97.04%;
-    height: 93.358%;
     left: 34.6px;
     top: 0%;
-    background: url(/photos/Header-bg@2x.png) no-repeat;
+    background: url(./photos/Header-bg@2x.png) no-repeat;
     background-size: cover;
     box-sizing: border-box;
   }
@@ -1042,7 +1145,7 @@ textarea:valid {
     font-weight: 700;
     font-size: 3.625rem;
     line-height: 100%;
-    padding-right: 48%;
+    padding-right: 35%;
     padding-top: -9%;
     color: #091e42;
   }
@@ -1132,7 +1235,7 @@ textarea:valid {
   }
 
   .snap {
-    background: url(/photos/snap1D.png) no-repeat;
+    background: url(./photos/snap1D.png) no-repeat;
     background-size: cover;
     position: absolute;
     width: 46.9588%;
@@ -1205,7 +1308,7 @@ textarea:valid {
 
   .para {
     position: static;
-    width: 91.176471%;
+    width: 81.176471%;
     margin-left: 4.411765%;
   }
 
@@ -1232,7 +1335,7 @@ textarea:valid {
   }
 
   .snap1 {
-    background: url(/photos/snap2D.png) no-repeat;
+    background: url(./photos/snap2D.png) no-repeat;
     order: 1;
     position: absolute;
     width: 47.0588%;
@@ -1273,6 +1376,10 @@ textarea:valid {
     width: 100%;
     height: auto;
     margin-top: -36.9px;
+  }
+
+  .ber {
+    width: 120%;
   }
 
   .quali1 {
@@ -1356,7 +1463,7 @@ textarea:valid {
   }
 
   .snap3 {
-    background: url(/photos/snap3D.png) no-repeat;
+    background: url(./photos/snap3D.png) no-repeat;
     position: absolute;
     background-size: cover;
     width: 47.0588%;
@@ -1373,7 +1480,7 @@ textarea:valid {
   }
 
   .snap4 {
-    background: url(/photos/snap4D.png) no-repeat;
+    background: url(./photos/snap4D.png) no-repeat;
     order: 1;
     position: absolute;
     width: 47.0588%;
@@ -1395,6 +1502,7 @@ textarea:valid {
     background: #fff;
     display: flex;
     flex-direction: row;
+    margin-top: -17%;
   }
 
   .Self {
@@ -1491,10 +1599,10 @@ textarea:valid {
   }
 
   .l-container {
-    top: 87%;
+    top: 83%;
     width: 100%;
     height: 770px;
-    background: url(/photos/contact-back.png) no-repeat, url(/photos/mobutu.png) no-repeat;
+    background: url(./photos/contact-back.png) no-repeat, url(./photos/mobutu.png) no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -1536,5 +1644,16 @@ textarea:valid {
 
   .para1-p2 {
     display: block;
+  }
+
+  button:hover {
+    background-color:#7f8cff;
+    color: azure;
+    border: none;
+  }
+
+  button:active {
+    background-color: #2230d2;
+    color: azure;
   }
 }
