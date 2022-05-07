@@ -11,6 +11,9 @@
   border-bottom-left-radius: 2.8rem;
 }
 
+.Submission :hover {
+  background-color: green;
+}
 .header {
   display: flex;
   position: absolute;
