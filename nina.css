@@ -1647,6 +1647,11 @@ textarea:valid {
     display: block;
   }
 
+  button {
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+  }
+
   button:hover {
     background-color: #7f8cff;
     color: azure;
@@ -1665,7 +1670,7 @@ textarea:valid {
 
   .resume > button {
     width: 38%;
-    border: 1px solid #6070FF;
+    border: 1px solid #6070ff;
     border-radius: 8px;
   }
 }
