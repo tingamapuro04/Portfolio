@@ -959,8 +959,6 @@ textarea:valid {
   display: none;
 }
 
-
-
 @media only screen and (min-width: 375px){
   .Main-container {
     width: 99.99vw;
@@ -1018,11 +1016,13 @@ textarea:valid {
     background-size: cover;
   }
 
-  .box-2, .box-4 {
+  .box-2, 
+  .box-4 {
     height: 24%;
   }
 
-  .snap1, .snap3 {
+  .snap1, 
+  .snap3 {
     background-size: cover;
     width: 100%;
   }
@@ -1057,7 +1057,6 @@ textarea:valid {
     top: 23%;
     background-size: cover ;
   }
-
 }
 
 @media screen and (min-width: 768px) {
@@ -1110,9 +1109,11 @@ textarea:valid {
   .po a {
     text-decoration: none;
   }
+
   .ab a {
     text-decoration: none;
   }
+
   .co a {
     text-decoration: none;
   }
@@ -1647,7 +1648,7 @@ textarea:valid {
   }
 
   button:hover {
-    background-color:#7f8cff;
+    background-color: #7f8cff;
     color: azure;
     border: none;
   }
