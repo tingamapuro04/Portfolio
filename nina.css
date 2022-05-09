@@ -241,7 +241,7 @@ h4 {
   background-size: 200px;
 }
 
-.media>li>a :hover {
+.media > li > a :hover {
   border: 3px solid #6070ff;
 }
 
