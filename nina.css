@@ -245,6 +245,10 @@ h4 {
   border: 3px solid #6070ff;
 }
 
+.media>li>a :hover {
+  border: 3px solid #6070ff;
+}
+
 .contact > h1 {
   font-size: 40px;
   font-weight: 700;
