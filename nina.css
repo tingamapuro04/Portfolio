@@ -423,10 +423,6 @@ h4 {
   transform: scale(1.3);
 }
 
-.css:hover {
-  transform: scale(1.3);
-}
-
 .ruby:hover {
   transform: scale(1.3);
 }
@@ -440,6 +436,10 @@ h4 {
   border-radius: 10px;
   padding-top: 9px;
   font-family: 'Poppins', sans-serif;
+}
+
+.css:hover {
+  transform: scale(1.3);
 }
 
 .java {
