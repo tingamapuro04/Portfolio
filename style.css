@@ -604,6 +604,7 @@ ul:hover {
     margin-top: -3%;
     height: 84%;
     margin-right: 3%;
+    width: 47%;
   }
 
   .para {
@@ -636,10 +637,6 @@ ul:hover {
     width: 47%;
   }
 
-  .body {
-    width: 47%;
-  }
-
   .can2 {
     display: none;
   }
@@ -652,6 +649,7 @@ ul:hover {
   .back1 {
     display: none;
   }
+
   .full {
     display: list-item;
   }
@@ -660,7 +658,7 @@ ul:hover {
     display: none;
   }
 
-  .para1-p2{
+  .para1-p2 {
     display: block;
   }
 
