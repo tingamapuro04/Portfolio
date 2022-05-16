@@ -14,11 +14,64 @@
   background: #fff;
 }
 
-header > nav {
+header {
+  width: 100%;
+  background: #262626;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
   display: flex;
-  flex-direction: row;
-  padding: 0 2%;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navmenu {
+  position: fixed;
+  display: flex;
+  gap: 6%;
+  flex-direction: column;
+  left: -100%;
+  top: 75px;
+  text-align: center;
+}
+
+.navmenu.active {
+  left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.items {
+  list-style: none;
+  padding-left: 0;
+}
+
+.ham {
+  cursor: pointer;
+}
+
+.ham.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.ham.active .bar:nth-child(1) {
+  transform: translateY(10px) rotate(45deg);
+}
+
+.ham.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 4px;
+  background-color: white;
+  margin: 5px auto;
 }
 
 .gol {
