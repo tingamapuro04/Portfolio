@@ -52,18 +52,9 @@ a {
 
 .ham {
   cursor: pointer;
-}
-
-.ham.active .bar:nth-child(2) {
-  opacity: 0;
-}
-
-.ham.active .bar:nth-child(1) {
-  transform: translateY(10px) rotate(45deg);
-}
-
-.ham.active .bar:nth-child(3) {
-  transform: translateY(-8px) rotate(-45deg);
+  height: 1.3125rem;
+  padding-top: 31px;
+  margin-right: 9%;
 }
 
 .bar {
@@ -74,17 +65,23 @@ a {
   margin: 5px auto;
 }
 
+.ham.active .bar:nth-child(1) {
+  transform: translateY(10px) rotate(45deg);
+}
+
+.ham.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.ham.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
 .gol {
   margin-right: 66%;
   font-weight: 700;
   font-size: 1.125rem;
   color: #6070ff;
-}
-
-.ham {
-  height: 1.3125rem;
-  padding-top: 31px;
-  margin-right: 9%;
 }
 
 .hidden {
