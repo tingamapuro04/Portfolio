@@ -169,6 +169,121 @@ a {
   align-items: center;
 }
 
+#pop-outer {
+  position: sticky;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(193, 199, 208, 0.8);
+  width: 100%;
+  height: 100%;
+}
+
+#pop-con {
+  /* display: none; */
+  z-index: 10;
+}
+
+#pop-head {
+  display: flex;
+  width: 92%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#pop-head h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+#pop-head button {
+  font-size: 3rem;
+  background: none;
+  border: none;
+  color: rgba(103, 121, 142, 1);
+}
+
+#pop-head button:hover {
+  text-decoration: none;
+}
+
+#pop-hist {
+  width: 92%;
+}
+
+.can-list {
+  display: flex;
+  padding: 0;
+  gap: 7%;
+  width: 100%;
+}
+
+.back-img {
+  width: 92%;
+  height: 220px;
+  background: url("./photos/Tanya.png") no-repeat;
+  background-size: 100%;
+}
+
+.main-sec {
+  width: 92%;
+  margin-top: 12px;
+}
+
+.main-sec p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.web-lang {
+  display: flex;
+  padding: 0;
+  list-style-type: none;
+  gap: 4%;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(96, 112, 255, 1);
+}
+
+.web-lang li {
+  background: rgb(235, 235, 235, 1);
+  padding: 4px 12px;
+  border-radius: 10px;
+}
+
+hr {
+  width: 92%;
+  border: none;
+  height: 2px;
+  background: rgba(223, 225, 230, 1);
+}
+
+.live {
+  height: 13%;
+  font-size: 15px;
+  color: #396df2;
+  font-weight: 500;
+  margin-bottom: 15%;
+  background: #fff;
+  border: 1px solid #91aae9;
+  border-radius: 8px;
+}
+
+.source {
+  margin-left: 3%;
+  height: 13%;
+  font-size: 15px;
+  color: #396df2;
+  font-weight: 500;
+  margin-bottom: 15%;
+  background: #fff;
+  border: 1px solid #91aae9;
+  border-radius: 8px;
+}
+
 .snap {
   margin-top: 1rem;
   margin-left: 1rem;

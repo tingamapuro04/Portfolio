@@ -29,3 +29,23 @@ contactLink.addEventListener('click', () => {
   close();
 })
 
+
+const pop =document.getElementById('pop-outer');
+const open = document.getElementById('pop-open');
+const close_up = document.getElementById('pop-close');
+
+open.addEventListener('click', function () {
+  pop.style.display = 'inline-block';
+  pop.style.zIndex = '10'
+})
+
+
+close_up.addEventListener('click', function () {
+  pop.style.display = 'none'
+})
+
+window.addEventListener('click', function(e){
+  if (e.target == pop) {
+    pop.style.display = 'none'
+  }
+})
