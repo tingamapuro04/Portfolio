@@ -29,3 +29,21 @@ contactLink.addEventListener('click', () => {
   close();
 })
 
+
+
+const form = document.getElementById('form');
+const email = document.getElementById('email_1');
+const emailvalue = email.value.trim()
+const error_m = document.getElementById('error');
+
+form.addEventListener('submit', (e) => {
+  const messages = [];
+  if (emailvalue !== emailvalue.toLowerCase()) {
+    messages.push('Do your email in lowercase!')
+  }
+
+  if (messages.length > 0) {
+    e.preventDefault()
+    error_m.innerText = messages.join(', ')
+  }
+})

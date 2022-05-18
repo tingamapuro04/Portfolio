@@ -535,6 +535,13 @@ textarea {
   margin-left: 2%;
 }
 
+#error {
+  /* color: red;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 2rem; */
+}
+
 .submit-k {
   padding: 2% 4%;
   font-size: 1rem;
