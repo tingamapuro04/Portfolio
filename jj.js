@@ -46,5 +46,4 @@ form.addEventListener('submit', (e) => {
     e.preventDefault()
     error_m.innerText = messages.join(', ')
   }
-  
 })
