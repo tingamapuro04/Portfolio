@@ -527,6 +527,7 @@ input {
 }
 
 textarea {
+  
   padding: 3%;
   width: 84%;
   border-radius: 8px;
@@ -536,10 +537,11 @@ textarea {
 }
 
 #error {
-  /* color: red;
+  background-color: #fff;
+  color: red;
   margin: 10px auto;
   text-align: center;
-  font-size: 2rem; */
+  font-size: 2rem;
 }
 
 .submit-k {
