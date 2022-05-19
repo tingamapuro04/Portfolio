@@ -29,3 +29,34 @@ contactLink.addEventListener('click', () => {
   close();
 })
 
+
+const name1 = document.getElementById('name_1')
+const email = document.getElementById('email_1')
+
+
+
+
+
+const form = document.getElementById('form');
+form.addEventListener('submit', function (event) {
+  // event.preventDefault()
+
+  // getting the values of the inputs;
+  const namevalue = name1.value.trim()
+  const emailvalue = email.value.trim()
+  console.log(namevalue)
+
+  const details = {
+    name: namevalue,
+    email: emailvalue
+  }
+
+  localStorage.setItem('details', JSON.stringify(details))
+})
+
+const details_retrieve = JSON.parse(localStorage.getItem('details'))
+
+if (details_retrieve) {
+  name1.value = details_retrieve.name
+  email.value = details_retrieve.email
+}
