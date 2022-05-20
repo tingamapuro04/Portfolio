@@ -48,14 +48,14 @@ form.addEventListener('submit', (e) => {
   }
 })
 const name1 = document.getElementById('name_1');
-const email = document.getElementById('email_1');
+const emailz = document.getElementById('email_1');
 const text1 = document.getElementById('text_1');
 
-const form = document.getElementById('form');
-form.addEventListener('input', () => {
+const formlocal = document.getElementById('form1');
+formlocal.addEventListener('input', () => {
   // getting the values of the inputs;
   const namevalue = name1.value.trim();
-  const emailvalue = email.value.trim();
+  const emailvalue = emailz.value.trim();
   const textvalue = text1.value.trim();
 
   const details = {
@@ -71,6 +71,6 @@ const detailsRetrieve = JSON.parse(localStorage.getItem('details'));
 
 if (detailsRetrieve) {
   name1.value = detailsRetrieve.name;
-  email.value = detailsRetrieve.email;
+  emailz.value = detailsRetrieve.email;
   text1.value = detailsRetrieve.text;
 }
