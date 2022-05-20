@@ -519,6 +519,8 @@ a {
 }
 
 input {
+  font-size: 17px;
+  color: #172b4d;
   width: 84%;
   border-radius: 8px;
   padding: 3%;
@@ -533,6 +535,14 @@ textarea {
   border: 1px solid #cfd8dc;
   margin-bottom: 4%;
   margin-left: 2%;
+}
+
+#error {
+  background-color: #fff;
+  color: red;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 2rem;
 }
 
 .submit-k {
