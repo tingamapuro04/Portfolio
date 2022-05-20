@@ -45,7 +45,11 @@ function listProject (item) {
   return `
   <div class="inside">
     <div class="pop-head">
-      <h1>${item.name}<h1>
+      <div class="pop-times">
+        <h1>${item.name}<h1>
+        <p>&times</p>
+      </div>
+      
       <ul clas="pop-hist">
       <li>${item.history[0]}</li>
       <li>${item.history[1]}</li>
@@ -64,11 +68,12 @@ function listProject (item) {
         <li>${item.technologies[2]}
       </ul>
       <hr>
+      <div class= "pop-btn">
+        <button type= "link">See live <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+        <button type= "link">See Source <i class="fa-brands fa-github"></i></button>
+      </div>
       </div>
     </div>
-  
-  <p>${item.description}</p>
-  </div>
   `
 }
 
