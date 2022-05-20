@@ -519,6 +519,8 @@ a {
 }
 
 input {
+  font-size: 17px;
+  color: #172b4d;
   width: 84%;
   border-radius: 8px;
   padding: 3%;
