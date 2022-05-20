@@ -30,7 +30,7 @@ contactLink.addEventListener('click', () => {
 });
 
 const name1 = document.getElementById('name_1');
-const emailz = document.getElementById('email_1');
+const emailz = document.getElementById('email_z');
 const text1 = document.getElementById('text_1');
 
 const formlocal = document.getElementById('form1');
