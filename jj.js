@@ -33,7 +33,7 @@ const name1 = document.getElementById('name_1');
 const emailz = document.getElementById('email_1');
 const text1 = document.getElementById('text_1');
 
-const formlocal = document.getElementById('form11');
+const formlocal = document.getElementById('form1');
 formlocal.addEventListener('input', () => {
   // getting the values of the inputs;
   const namevalue = name1.value.trim();
