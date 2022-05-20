@@ -79,8 +79,38 @@ if (detailsRetrieve) {
 const projectInfo = [
   {
     name: 'Tonic',
-    history: ['Canopy', 'Back End Dev', 2015]
-    image: ,
-    description: 
+    history: ['Canopy', 'Back End Dev', 2015],
+    image: "./photos/Tanya.png",
+    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae aspernatur, soluta et modi iusto similique aut corrupti molestias voluptates rerum.", 
+    technologies: ['html', 'css', 'javascript'],
+    sLive: "https://github.com/tingamapuro04",
+    lSource: "https://github.com/tingamapuro04"
+  },
+  {
+    name: 'Multi-Post Stories',
+    history: ['Canopy', 'Back End Dev', 2015],
+    image: "./photos/second.png",
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.', 
+    technologies: ['html', 'css', 'javascript'],
+    sLive: "https://github.com/tingamapuro04",
+    lSource: "https://github.com/tingamapuro04"
+  },
+  {
+    name: 'Tonic',
+    history: ['Canopy', 'Back End Dev', 2015],
+    image: "./photos/third.png",
+    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae aspernatur, soluta et modi iusto similique aut corrupti molestias voluptates rerum.", 
+    technologies: ['html', 'css', 'javascript'],
+    sLive: "https://github.com/tingamapuro04",
+    lSource: "https://github.com/tingamapuro04"
+  },
+  {
+    name: 'Tonic',
+    history: ['Canopy', 'Back End Dev', 2015],
+    fimage: "./photos/fourth.png",
+    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae aspernatur, soluta et modi iusto similique aut corrupti molestias voluptates rerum.", 
+    technologies: ['html', 'css', 'javascript'],
+    sLive: 'https://github.com/tingamapuro04',
+    lSource: 'https://github.com/tingamapuro04'
   }
 ]
