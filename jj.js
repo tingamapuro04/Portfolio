@@ -30,14 +30,14 @@ contactLink.addEventListener('click', () => {
 });
 
 const name1 = document.getElementById('name_1');
-const email1 = document.getElementById('email_1');
+const emailz = document.getElementById('email_1');
 const text1 = document.getElementById('text_1');
 
-const form = document.getElementById('form');
-form.addEventListener('input', () => {
+const formlocal = document.getElementById('form11');
+formlocal.addEventListener('input', () => {
   // getting the values of the inputs;
   const namevalue = name1.value.trim();
-  const emailvalue = email1.value.trim();
+  const emailvalue = emailz.value.trim();
   const textvalue = text1.value.trim();
 
   const details = {
@@ -53,6 +53,6 @@ const detailsRetrieve = JSON.parse(localStorage.getItem('details'));
 
 if (detailsRetrieve) {
   name1.value = detailsRetrieve.name;
-  email1.value = detailsRetrieve.email;
+  emailz.value = detailsRetrieve.email;
   text1.value = detailsRetrieve.text;
 }
