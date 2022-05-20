@@ -587,6 +587,21 @@ ul:hover {
   display: none;
 }
 
+
+
+/* #windowPop {
+  width: 78%;
+  background: green;
+  color: white;
+} */
+
+.inside {
+  background-color: #396df2;
+  color: white;
+}
+
+
+
 @media all and (min-width: 768px) {
   .Main-container {
     width: 98vw;

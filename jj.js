@@ -114,3 +114,13 @@ const projectInfo = [
     lSource: 'https://github.com/tingamapuro04'
   }
 ]
+
+
+
+
+document.getElementById("wapora").innerHTML = `<h1>Wewe</h1>`
+
+document.getElementById("info").innerHTML = `
+<h1 class= "mob-title">Mobutu ( results)</h1>
+<p>Lorem </p>
+`
