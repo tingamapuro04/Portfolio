@@ -10,6 +10,7 @@ A project on a mobile version of a page where i am setting up the first page usi
 
 - Html
 - Css
+- javascript
 
 ## Getting Started
 
