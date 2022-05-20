@@ -74,3 +74,13 @@ if (detailsRetrieve) {
   email.value = detailsRetrieve.email;
   text1.value = detailsRetrieve.text;
 }
+
+
+const projectInfo = [
+  {
+    name: 'Tonic',
+    history: ['Canopy', 'Back End Dev', 2015]
+    image: ,
+    description: 
+  }
+]
