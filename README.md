@@ -54,6 +54,10 @@ npm start
 👤 **Author3**
 - Name : Basir Mohammadi
 
+👤 **Author3**
+- Name : Mirela Oliveira
+- GitHub: [@mirelapitt](https://github.com/mirelapitt)
+
 ## Show your support
 
 Give a ⭐️ if you like this project! and let me know of any issues that may even make it better.
