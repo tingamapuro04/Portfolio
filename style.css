@@ -599,7 +599,44 @@ ul:hover {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  background: #c1c7d0;
+  background: rgba(193, 199, 208, 0.94);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100vh;
+  display: none;
+}
+
+#adoyo {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background: rgba(193, 199, 208, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100vh;
+  display: none;
+}
+#alphonce {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background: rgba(193, 199, 208, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100vh;
+  display: none;
+}
+#nina {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background: rgba(193, 199, 208, 0.8);
   position: fixed;
   top: 0;
   left: 0;
@@ -634,22 +671,38 @@ ul:hover {
   background: none;
 }
 
+.close1:focus {
+  cursor: pointer;
+}
+
 .pop-times p {
   font-size: 48px;
   font-weight: 400;
   color: grey;
 }
 
+.pop-times p:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
 .pop-hist {
   display: flex;
-  gap: 1%;
+  gap: 0.1%;
   margin-top: -5%;
   padding-left: 0%;
 }
 
+
+
 .pop-hist li {
+  list-style: circle;
+  margin-left: 2%;
+  color: grey;
+}
+
+.can3 {
   list-style: none;
-  margin-left: 3%;
 }
 
 .pop-img {
@@ -670,6 +723,10 @@ ul:hover {
 
 .desc {
   font-size: 12px;
+}
+
+.desc1 {
+  display: none;
 }
 
 .pop-tech {
@@ -694,6 +751,10 @@ ul:hover {
   padding: 4px 12px 4px 12px;
   border-radius: 12px;
   color: #5e6eff;
+}
+
+.hid {
+  display: none;
 }
 
 .pop-btn1 {
@@ -1061,6 +1122,11 @@ ul:hover {
     font-size: 70%;
   }
 
+  .desc1 {
+    width: 75%;
+    font-size: 70%;
+  }
+
   .pop-tec-list {
     flex-wrap: wrap;
     width: 80%;
@@ -1070,6 +1136,10 @@ ul:hover {
     margin-bottom: 4px;
   }
 
+  .hid {
+    display: inline-block;
+  }
+
   .pop-btn1 {
     margin-right: -10%;
   }
@@ -1077,5 +1147,16 @@ ul:hover {
   .pop-btn {
     height: 35px;
     font-size: 79%;
+  }
+}
+
+
+@media all and (min-width: 1000px) {
+  .desc {
+    display: none;
+  }
+
+  .desc1 {
+    display: block;
   }
 }
