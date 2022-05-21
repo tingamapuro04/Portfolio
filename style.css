@@ -265,6 +265,20 @@ a {
   font-family: 'Poppins', sans-serif;
 }
 
+.pop-hist li {
+  list-style: circle;
+  margin-left: 2%;
+  color: grey;
+}
+
+.pop-tec-list li {
+  list-style: none;
+  background: #ebebff;
+  padding: 4px 12px 4px 12px;
+  border-radius: 12px;
+  color: #5e6eff;
+}
+
 .Tech > ul > li {
   background: #ebebff;
   margin-right: 5%;
@@ -596,6 +610,10 @@ ul:hover {
 } */
 
 #mobutu {
+  display: none;
+}
+
+.mogu {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -605,10 +623,13 @@ ul:hover {
   left: 0;
   bottom: 0;
   height: 100vh;
-  display: none;
 }
 
 #adoyo {
+  display: none;
+}
+
+.ado {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -618,21 +639,13 @@ ul:hover {
   left: 0;
   bottom: 0;
   height: 100vh;
-  display: none;
 }
+
 #alphonce {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  background: rgba(193, 199, 208, 0.8);
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  height: 100vh;
   display: none;
 }
-#nina {
+
+.alp {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -642,7 +655,22 @@ ul:hover {
   left: 0;
   bottom: 0;
   height: 100vh;
+}
+
+#nina {
   display: none;
+}
+
+.nin {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background: rgba(193, 199, 208, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100vh;
 }
 
 .inside {
@@ -651,8 +679,9 @@ ul:hover {
   flex-wrap: wrap;
   top: 0;
   background-color: #fff;
+
   /* margin-bottom: 115px; */
-  margin: 6% 5% ;
+  margin: 6% 5%;
   margin-bottom: 1px;
   padding-top: 0;
   z-index: 10;
@@ -693,14 +722,6 @@ ul:hover {
   padding-left: 0%;
 }
 
-
-
-.pop-hist li {
-  list-style: circle;
-  margin-left: 2%;
-  color: grey;
-}
-
 .can3 {
   list-style: none;
 }
@@ -738,19 +759,10 @@ ul:hover {
   padding: 0;
   gap: 2%;
   font-size: 12px;
-
 }
 
 .pop-hr {
   background: #ebecf0;
-}
-
-.pop-tec-list li {
-  list-style: none;
-  background: #ebebff;
-  padding: 4px 12px 4px 12px;
-  border-radius: 12px;
-  color: #5e6eff;
 }
 
 .hid {
@@ -764,7 +776,6 @@ ul:hover {
 
 .pop-btn {
   margin: 3% 0;
-  padding: 3.3px;
   font-weight: 500;
   font-size: 1em;
   color: #396df2;
@@ -784,8 +795,6 @@ ul:hover {
 .pop-btn i {
   margin-left: 5px;
 }
-
-
 
 @media all and (min-width: 768px) {
   .Main-container {
@@ -900,6 +909,10 @@ ul:hover {
 
   .Tech ul {
     gap: 2%;
+  }
+
+  .pop-tec-list li {
+    margin-bottom: 4px;
   }
 
   .Tech ul li {
@@ -1132,9 +1145,7 @@ ul:hover {
     width: 80%;
   }
 
-  .pop-tec-list li {
-    margin-bottom: 4px;
-  }
+
 
   .hid {
     display: inline-block;
@@ -1149,7 +1160,6 @@ ul:hover {
     font-size: 79%;
   }
 }
-
 
 @media all and (min-width: 1000px) {
   .desc {

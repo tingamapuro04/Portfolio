@@ -2,53 +2,44 @@ const projectInfo = [
   {
     name: 'Tonic',
     history: ['CANOPY', 'Back End Dev', 2015],
-    fimage: "./photos/Tanya.png",
+    fimage: './photos/Tanya.png',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.',
     description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply",
     technologies: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstrap'],
-    sLive: "https://github.com/tingamapuro04",
-    lSource: "https://github.com/tingamapuro04"
+    sLive: 'https://github.com/tingamapuro04',
+    lSource: 'https://github.com/tingamapuro04',
   },
   {
     name: 'Multi-Post Stories',
     history: ['CANOPY', 'Facebook', 'Full Stack', 'Back End Dev', 2015],
-    fimage: "./photos/second.png",
+    fimage: './photos/second.png',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.',
     description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply",
     technologies: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstrap'],
-    sLive: "https://github.com/tingamapuro04",
-    lSource: "https://github.com/tingamapuro04"
+    sLive: 'https://github.com/tingamapuro04',
+    lSource: 'https://github.com/tingamapuro04',
   },
   {
     name: 'Tonic',
-    history: ['CANOPY', "Facebook", "Full Stack",'Back End Dev', 2015],
-    fimage: "./photos/third.png",
+    history: ['CANOPY', 'Facebook', 'Full Stack', 'Back End Dev', 2015],
+    fimage: './photos/third.png',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.',
     description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply",
     technologies: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstrap'],
-    sLive: "https://github.com/tingamapuro04",
-    lSource: "https://github.com/tingamapuro04"
+    sLive: 'https://github.com/tingamapuro04',
+    lSource: 'https://github.com/tingamapuro04',
   },
   {
     name: 'Multi-Post Stories',
-    history: ['Canopy', "Uber", "Lead Developer",'Back End Dev', 2015],
-    fimage: "./photos/fourth.png",
+    history: ['Canopy', 'Uber', 'Lead Developer', 'Back End Dev', 2015],
+    fimage: './photos/fourth.png',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.',
     description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply ",
     technologies: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstrap'],
     sLive: 'https://github.com/tingamapuro04',
-    lSource: 'https://github.com/tingamapuro04'
-  }
-]
-
-
-
-
-
-
-
-
-
+    lSource: 'https://github.com/tingamapuro04',
+  },
+];
 
 function secondcard(item) {
   return `
@@ -88,22 +79,14 @@ function secondcard(item) {
       </div>
       </div>
     </div>
-  `
+  `;
 }
 
-
-
-
-
-const twolist = []
-twolist.push(projectInfo[0])
-document.getElementById("adoyo").innerHTML = `
+const twolist = [];
+twolist.push(projectInfo[0]);
+document.getElementById('adoyo').innerHTML = `
 ${twolist.map(secondcard).join('')}
-`
-
-
-
-
+`;
 
 function firstcard(item) {
   return `
@@ -144,19 +127,14 @@ function firstcard(item) {
       </div>
       </div>
     </div>
-  `
+  `;
 }
 
-
-
-
-const onelist = []
-onelist.push(projectInfo[1])
-document.getElementById("mobutu").innerHTML = `
+const onelist = [];
+onelist.push(projectInfo[1]);
+document.getElementById('mobutu').innerHTML = `
 ${onelist.map(firstcard).join('')}
-`
-
-
+`;
 
 function thirdcard(item) {
   return `
@@ -197,20 +175,14 @@ function thirdcard(item) {
       </div>
       </div>
     </div>
-  `
+  `;
 }
 
-
-const threelist = []
-threelist.push(projectInfo[2])
-document.getElementById("alphonce").innerHTML = `
+const threelist = [];
+threelist.push(projectInfo[2]);
+document.getElementById('alphonce').innerHTML = `
 ${threelist.map(thirdcard).join('')}
-`
-
-
-
-
-
+`;
 
 function fourthcard(item) {
   return `
@@ -251,92 +223,81 @@ function fourthcard(item) {
       </div>
       </div>
     </div>
-  `
+  `;
 }
 
-
-const fourlist = []
-fourlist.push(projectInfo[3])
-document.getElementById("nina").innerHTML = `
+const fourlist = [];
+fourlist.push(projectInfo[3]);
+document.getElementById('nina').innerHTML = `
 ${fourlist.map(fourthcard).join('')}
-`
+`;
 
-const fBox = document.getElementById('mobutu')
-const sBox = document.getElementById('adoyo')
-const tBox = document.getElementById('alphonce')
-const nBox = document.getElementById('nina')
+const fBox = document.getElementById('mobutu');
+const sBox = document.getElementById('adoyo');
+const tBox = document.getElementById('alphonce');
+const nBox = document.getElementById('nina');
 
-const closingB4 = document.getElementById('post2')
-const closingB3 = document.getElementById('tonic2')
-const closingB2 = document.getElementById('post1')
-const closingB1 = document.getElementById('tonic1')
-
-
+const closingB4 = document.getElementById('post2');
+const closingB3 = document.getElementById('tonic2');
+const closingB2 = document.getElementById('post1');
+const closingB1 = document.getElementById('tonic1');
 
 const fButton = document.getElementById('fCard');
-fButton.addEventListener('click', function() {
-  sBox.style.display = 'block'
-})
+fButton.addEventListener('click', () => {
+  sBox.style.display = 'block';
+});
 
-const sButton = document.getElementById('sCard')
-sButton.addEventListener('click', function() {
-  fBox.style.display = 'block'
-})
+const sButton = document.getElementById('sCard');
+sButton.addEventListener('click', () => {
+  fBox.style.display = 'block';
+});
 
+const tButton = document.getElementById('tCard');
+tButton.addEventListener('click', () => {
+  tBox.style.display = 'block';
+});
 
+const nButton = document.getElementById('lCard');
+nButton.addEventListener('click', () => {
+  nBox.style.display = 'block';
+});
 
-const tButton = document.getElementById('tCard')
-tButton.addEventListener('click', function() {
-  tBox.style.display = 'block'
-})
+closingB4.addEventListener('click', () => {
+  nBox.style.display = 'none';
+});
 
-
-const nButton = document.getElementById('lCard')
-nButton.addEventListener('click', function() {
-  nBox.style.display = 'block'
-})
-
-
-
-
-closingB4.addEventListener('click', function() {
-  nBox.style.display ='none'
-})
-
-window.addEventListener('click', function(e) {
-  if (e.target == nBox) {
-    nBox.style.display = 'none'
+window.addEventListener('click', (e) => {
+  if (e.target === nBox) {
+    nBox.style.display = 'none';
   }
-  
-})
+});
 
-closingB3.addEventListener('click', function() {
-  tBox.style.display ='none'
-})
+closingB3.addEventListener('click', () => {
+  tBox.style.display = 'none';
+});
 
-window.addEventListener('click', function(e) {
-  if (e.target == tBox) {
-    tBox.style.display = 'none'
+window.addEventListener('click', (e) => {
+  if (e.target === tBox) {
+    tBox.style.display = 'none';
   }
-  
-})
+});
 
-closingB2.addEventListener('click', function() {
-  fBox.style.display ='none'
-})
+closingB2.addEventListener('click', () => {
+  fBox.style.display = 'none';
+});
 
-window.addEventListener('click', function(e) {
-  if (e.target == fBox) {
-    fBox.style.display = 'none'
+window.addEventListener('click', (e) => {
+  if (e.target === fBox) {
+    fBox.style.display = 'none';
   }
-})
+});
 
-closingB1.addEventListener('click', function() {
-  sBox.style.display ='none'
-})
+closingB1.addEventListener('click', () => {
+  sBox.style.display = 'none';
+});
 
-window.addEventListener('click', function(e) {
-  if (e.target == sBox) {
-    sBox.style.display = 'none'
+window.addEventListener('click', (e) => {
+  if (e.target === sBox) {
+    sBox.style.display = 'none';
   }
-})
+});
