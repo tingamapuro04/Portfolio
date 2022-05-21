@@ -29,30 +29,28 @@ contactLink.addEventListener('click', () => {
   close();
 });
 
-
-
 const form = document.getElementById('form');
 const email = document.getElementById('email_1');
-const emailvalue = email.value.trim()
-const error_m = document.getElementById('error');
+const emailvalue = email.value.trim();
+const errorm = document.getElementById('error');
 
 form.addEventListener('submit', (e) => {
   const messages = [];
   if (emailvalue !== emailvalue.toLowerCase()) {
-    messages.push('Do your email in lowercase!')
+    messages.push('Do your email in lowercase!');
   }
 
   if (messages.length > 0) {
-    e.preventDefault()
-    error_m.innerText = messages.join(', ')
+    e.preventDefault();
+    errorm.innerText = messages.join(', ');
   }
-})
+});
+
 const name1 = document.getElementById('name_1');
-const email = document.getElementById('email_1');
 const text1 = document.getElementById('text_1');
 
-const form = document.getElementById('form');
-form.addEventListener('input', () => {
+const formA = document.getElementById('form');
+formA.addEventListener('input', () => {
   // getting the values of the inputs;
   const namevalue = name1.value.trim();
   const emailvalue = email.value.trim();
