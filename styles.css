@@ -46,3 +46,28 @@
 .unordered li:hover {
   text-decoration: none;
 }
+
+.covered li {
+  background: rgb(41, 160, 234);
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 7px 16px;
+}
+
+.first {
+  border: 1px solid grey;
+  padding: 0 7px 0 3px;
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+}
+
+.Project_see {
+  border: none;
+  font-size: 1.3rem;
+  color: #369cfe;
+  background: rgba(128, 128, 128, 0.168);
+  padding: 2px 10px;
+  border-radius: 12px;
+}

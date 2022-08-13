@@ -574,23 +574,10 @@ textarea {
 button:hover {
   background-color: #6070ff;
   color: aqua;
-  text-decoration: underline;
 }
 
 button:active {
   background: #2230d2;
-}
-
-.hoverable:hover {
-  text-decoration: underline;
-}
-
-p:hover {
-  text-decoration: underline;
-}
-
-ul:hover {
-  text-decoration: underline;
 }
 
 .box:hover {
