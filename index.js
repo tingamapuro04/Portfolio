@@ -1,30 +1,27 @@
 const projectInfo = [
   {
     name: 'Movie Maze',
-    history: ['CANOPY', 'Back End Dev', 2015],
+    history: ['CANOPY', 'Front End Dev', 2022],
     fimage: './photos/Maze.jpeg',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.',
+    description: "An app that fetches data from an API and renders it to the UI",
+    technologies: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstrap'],
+    sLive: 'https://movie-maze.netlify.app/',
+    lSource: 'https://github.com/tingamapuro04',
+  },
+  {
+    name: 'Book Store',
+    history: ['CANOPY', 'Facebook', 'Full Stack', 'Back End Dev', 2022],
+    fimage: './photos/buku.jpeg',
+    description: "An app where we use Redux store to store data fetched from an API and also we can add and remove the items in the store",
+    technologies: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstrap'],
+    sLive: 'https://beautiful-puffpuff-9f47fc.netlify.app/',
+  },
+  {
+    name: 'Trading App',
+    history: ['CANOPY', 'Facebook', 'Full Stack', 'Back End Dev', 2015],
+    fimage: './photos/Maze.jpeg',
+    description: "",
     description1: "",
-    technologies: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstrap'],
-    sLive: 'https://github.com/tingamapuro04',
-    lSource: 'https://github.com/tingamapuro04',
-  },
-  {
-    name: 'Multi-Post Stories',
-    history: ['CANOPY', 'Facebook', 'Full Stack', 'Back End Dev', 2015],
-    fimage: './photos/second.png',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.',
-    description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply",
-    technologies: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstrap'],
-    sLive: 'https://github.com/tingamapuro04',
-    lSource: 'https://github.com/tingamapuro04',
-  },
-  {
-    name: 'Tonic',
-    history: ['CANOPY', 'Facebook', 'Full Stack', 'Back End Dev', 2015],
-    fimage: './photos/Maze.jpeg',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.',
-    description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply",
     technologies: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstrap'],
     sLive: 'https://github.com/tingamapuro04',
     lSource: 'https://github.com/tingamapuro04',
@@ -33,204 +30,42 @@ const projectInfo = [
     name: 'Multi-Post Stories',
     history: ['Canopy', 'Uber', 'Lead Developer', 'Back End Dev', 2015],
     fimage: './photos/fourth.png',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.',
-    description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply ",
+    description: "",
+    description1: "",
     technologies: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstrap'],
     sLive: 'https://github.com/tingamapuro04',
     lSource: 'https://github.com/tingamapuro04',
   },
 ];
 
-function secondcard(item) {
-  return `
-  <div id="card2" class="inside">
-    <div class="pop-head">
-      <div class="pop-times">
-        <h1>${item.name}<h1>
-        <p id="tonic1">&times</p>
-      </div>
-      
-      <ul class="pop-hist">
-      <li class="can">${item.history[0]}</li>
-      <li class="back">${item.history[1]}</li>
-      <li class="year">${item.history[2]}</li>
-      </ul>
-    </div>
-    <div class="pop-img">
-      <img src="${item.fimage}">
-    </div>
-    <div class="pop-lower">
-      <p class="desc">${item.description}</p>
-      <p class="desc1">${item.description1}</p>
 
-      <div class="pop-tech">
-      <ul class="pop-tec-list">
-        <li>${item.technologies[0]}
-        <li>${item.technologies[1]}
-        <li>${item.technologies[2]}
-        <li class="hid">${item.technologies[3]}
-        <li class="hid">${item.technologies[4]}
-        <li class="hid">${item.technologies[5]}
+
+const mapping = document.querySelector('.s-container');
+
+function card(item) {
+  return `
+  <div class="Card">
+    <img alt="card pic" src=${item.fimage} />
+    <div>
+      <h1>${item.name}</h1>
+      <ul>
+        <li>${item.history[0]}</li>
+        <li>${item.history[1]}</li>
+        <li>${item.history[2]}</li>
       </ul>
-      <hr class="pop-hr">
-      <div class= "pop-btn1">
-        <button class="pop-btn" type= "link"><a href="${item.sLive}"> See live <i class="fa-solid fa-arrow-up-right-from-square"></i></a></button>
-        <button class="pop-btn" type= "link"><a href="${item.lSource}"> See Source <i class="fa-brands fa-github"></i></a></button>
-      </div>
-      </div>
+      <p>${item.description}</p>
+      <ul>
+        <li>${item.technologies[0]}</li>
+        <li>${item.technologies[1]}</li>
+        <li>${item.technologies[2]}</li>
+      </ul>
+      <a href=${item.sLive}><butto>See Project</butto></a>
     </div>
-  `;
+  </div>
+  `
 }
 
-const twolist = [];
-twolist.push(projectInfo[0]);
-document.getElementById('adoyo').innerHTML = `
-${twolist.map(secondcard).join('')}
-`;
-
-function firstcard(item) {
-  return `
-  <div id="card1" class="inside">
-    <div class="pop-head">
-      <div class="pop-times">
-        <h1>${item.name}<h1>
-        <p id="post1">&times</p>
-      </div>
-      
-      <ul class="pop-hist">
-      <li class="can can2">${item.history[0]}</li>
-      <li class="face">${item.history[1]}</li>
-      <li class="full">${item.history[2]}</li>
-      <li class="back back1">${item.history[3]}</li>
-      <li class="back">${item.history[4]}</li>
-      </ul>
-    </div>
-    <div class="pop-img">
-      <img src="${item.fimage}">
-    </div>
-    <div class="pop-lower">
-      <p class="desc">${item.description}</p>
-      <p class="desc1">${item.description1}</p>
-      <div class="pop-tech">
-      <ul class="pop-tec-list">
-        <li>${item.technologies[0]}
-        <li>${item.technologies[1]}
-        <li>${item.technologies[2]}
-        <li class="hid">${item.technologies[3]}
-        <li class="hid">${item.technologies[4]}
-        <li class="hid">${item.technologies[5]}
-      </ul>
-      <hr class="pop-hr">
-      <div class= "pop-btn1">
-        <button class="pop-btn" type= "link"><a href="${item.sLive}"> See live <i class="fa-solid fa-arrow-up-right-from-square"></i></a></button>
-        <button class="pop-btn" type= "link"><a href="${item.lSource}"> See Source <i class="fa-brands fa-github"></i></a></button>
-      </div>
-      </div>
-    </div>
-  `;
-}
-
-const onelist = [];
-onelist.push(projectInfo[1]);
-document.getElementById('mobutu').innerHTML = `
-${onelist.map(firstcard).join('')}
-`;
-
-function thirdcard(item) {
-  return `
-  <div id ="card3" class="inside">
-    <div class="pop-head">
-      <div class="pop-times">
-        <h1>${item.name}<h1>
-        <p id="tonic2">&times</p>
-      </div>
-      
-      <ul class="pop-hist">
-      <li class="can can2">${item.history[0]}</li>
-      <li class="face">${item.history[1]}</li>
-      <li class="full">${item.history[2]}</li>
-      <li class="back back1">${item.history[3]}</li>
-      <li class="year">${item.history[4]}</li>
-      </ul>
-    </div>
-    <div class="pop-img">
-      <img src="${item.fimage}">
-    </div>
-    <div class="pop-lower">
-      <p class="desc">${item.description}</p>
-      <p class="desc1">${item.description1}</p>
-      <div class="pop-tech">
-      <ul class="pop-tec-list">
-        <li>${item.technologies[0]}
-        <li>${item.technologies[1]}
-        <li>${item.technologies[2]}
-        <li class="hid">${item.technologies[3]}
-        <li class="hid">${item.technologies[4]}
-        <li class="hid">${item.technologies[5]}
-      </ul>
-      <hr class="pop-hr">
-      <div class= "pop-btn1">
-        <button class="pop-btn" type= "link"><a href="${item.sLive}"> See live <i class="fa-solid fa-arrow-up-right-from-square"></i></a></button>
-        <button class="pop-btn" type= "link"><a href="${item.lSource}"> See Source <i class="fa-brands fa-github"></i></a></button>
-      </div>
-      </div>
-    </div>
-  `;
-}
-
-const threelist = [];
-threelist.push(projectInfo[2]);
-document.getElementById('alphonce').innerHTML = `
-${threelist.map(thirdcard).join('')}
-`;
-
-function fourthcard(item) {
-  return `
-  <div class="inside card4">
-    <div class="pop-head">
-      <div class="pop-times">
-        <h1>${item.name}<h1>
-        <p id="post2">&times</p>
-      </div>
-      
-      <ul class ="pop-hist">
-        <li class="can can2">${item.history[0]}</li>
-        <li class="face">${item.history[1]}</li>
-        <li class="full">${item.history[2]}</li>
-        <li class="back back1">${item.history[3]}</li>
-        <li class="year">${item.history[4]}</li>
-      </ul>
-    </div>
-    <div class="pop-img">
-      <img src="${item.fimage}">
-    </div>
-    <div class="pop-lower">
-      <p class="desc">${item.description}</p>
-      <p class="desc1">${item.description1}</p>
-      <div class="pop-tech">
-      <ul class="pop-tec-list">
-        <li>${item.technologies[0]}
-        <li>${item.technologies[1]}
-        <li>${item.technologies[2]}
-        <li class="hid">${item.technologies[3]}
-        <li class="hid">${item.technologies[4]}
-        <li class="hid">${item.technologies[5]}
-      </ul>
-      <hr class="pop-hr">
-      <div class= "pop-btn1">
-        <button class="pop-btn" type= "link"><a href="${item.sLive}"> See live <i class="fa-solid fa-arrow-up-right-from-square"></i></a></button>
-        <button class="pop-btn" type= "link"><a href="${item.lSource}"> See Source <i class="fa-brands fa-github"></i></a></button>
-      </div>
-      </div>
-    </div>
-  `;
-}
-
-const fourlist = [];
-fourlist.push(projectInfo[3]);
-document.getElementById('nina').innerHTML = `
-${fourlist.map(fourthcard).join('')}
-`;
+mapping.innerHTML = `${projectInfo.map(card).join('')}`;
 
 const fBox = document.getElementById('mobutu');
 const sBox = document.getElementById('adoyo');
