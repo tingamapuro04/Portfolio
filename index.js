@@ -41,21 +41,21 @@ const mapping = document.querySelector('.s-container');
 function card(item) {
   return `
   <div class="Card">
-    <img alt="card pic" src=${item.fimage} />
-    <div>
+    <img class="project-img" alt="card pic" src=${item.fimage} />
+    <div class="details">
       <h1>${item.name}</h1>
-      <ul>
+      <ul class="unordered">
         <li>${item.history[0]}</li>
         <li>${item.history[1]}</li>
         <li>${item.history[2]}</li>
       </ul>
       <p>${item.description}</p>
-      <ul>
+      <ul class="unordered">
         <li>${item.technologies[0]}</li>
         <li>${item.technologies[1]}</li>
         <li>${item.technologies[2]}</li>
       </ul>
-      <a href=${item.sLive}><butto>See Project</butto></a>
+      <a href=${item.sLive}><button>See Project</button></a>
     </div>
   </div>
   `
