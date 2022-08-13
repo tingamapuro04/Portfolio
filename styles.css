@@ -4,7 +4,6 @@
 
 .Card {
   display: flex;
-  align-items: justify;
   gap: 2%;
   justify-content: space-between;
   border: 2px solid orangered;
@@ -43,16 +42,16 @@
   margin-right: 10px;
 }
 
-.unordered li:hover {
-  text-decoration: none;
-}
-
 .covered li {
   background: rgb(41, 160, 234);
   color: white;
   padding: 12px;
   border: none;
   border-radius: 7px 16px;
+}
+
+.unordered li:hover {
+  text-decoration: none;
 }
 
 .first {
